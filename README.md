@@ -3,4 +3,4 @@ Pour ce projet du mois, nous avons mis en place une structure où l’on pourrai
 
 
 
-le lien du site est : https://diaramadou.github.io/search-school/
+le lien du site est : https://diaramadou.github.io/Diara_Group/
