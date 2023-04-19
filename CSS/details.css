@@ -106,7 +106,7 @@ a{
 	top:100%;
 	background-color: #ffffff;
 	padding: 10px 0;
-	border-top: 3px solid #e91e63;
+	border-top: 3px solid white;
 	transform: translateY(10px);
 	transition: all 0.3s ease;
 	opacity:0;
