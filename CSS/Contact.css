@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+}
+
+/* HEADER */ 
+header
+{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+nav ul
+{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+nav ul li:hover
+{
+    color: #545AE8;
+}
+header img
+{
+    width: 120px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* CONTACT */
+#contacts
+{
+    background-color: #545AE8;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5.6%;
+}
+.infoContact
+{
+    display: flex;
+    gap: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.infoContact p
+{
+    font-size: 1.3rem;
+    color: white;
+}
+#contacts i
+{
+    font-size: 5rem;
+    padding-top: 10%;
+    margin-left: 35%;
+    padding-bottom: 15px;
+}
+.contactGroup
+{
+    width: 100%;
+    height: 150px;
+    border-top:1px solid #545AE8;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.contactGroup i
+{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: #545AE8;
+}
+h2
+{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.border
+{
+    border: 1px solid white;
+    height: 50%;
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+}
+.border2
+{
+    border: 1px solid white;
+    height: 50%;
+    position: absolute;
+    right: 35%;
+    bottom: 5%;
+}
+.telephone i
+{
+    margin-left: 50px;
+}
+.mail i
+{
+}
+.formContact
+{
+    margin-top: 30px;
+    margin-left: 30%;
+    width: 30%;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 100%;
+    background-color: white;
+}
