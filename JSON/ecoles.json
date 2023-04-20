@@ -1,0 +1,623 @@
+[
+    {
+        "Lycée": [
+        {
+        "lieu":"Yopougon",
+        "infos":{
+         "ecole":[
+            {
+                "id": 1,
+                "nom": " Groupe Scolaire Offoumou Yapo",
+                "adresse": "Abidjan",
+                "telephone": [
+                    "01 01 22 46 67 89",
+                    "07 07 94 52 48"
+                ],
+                "email": "collegeoffoumouyapo@yahoo.fr",
+                "Regime":"externe",
+                "picture":{
+                    "image1":"http://gsoy.sch-ci.org/files2/images/100_1023.JPG?size=11",
+                    "image2":"https://scontent.fabj5-1.fna.fbcdn.net/v/t1.18169-9/10562976_667206930036874_9048657590338598005_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=ylsEMZK_W4gAX_kpKlZ&_nc_ht=scontent.fabj5-1.fna&oh=00_AfB-JXfpN0mqCtOXlYWfxpPCZ4murIYMp6tAKScDfCHDXg&oe=64678DA2",
+                    "image3":"https://scontent.fabj5-1.fna.fbcdn.net/v/t1.18169-9/1972482_667206740036893_8786483489243505557_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=bbCBs5SQmKQAX_2DuFP&_nc_ht=scontent.fabj5-1.fna&oh=00_AfC--avTVJgELmbaMJ59zrB_sGbIxr8os6q53v3Eq-qBrg&oe=6467BB9C"
+                },
+                "Date_ecole":{
+                    "Date_creation" : "1900",
+                    "Date_ouverture" : "1910"
+                },
+                "tranche_scolarité":{
+                        "scolarité-min":"60 000",
+                        "scolarité-max":"100 000",
+                        "Droit_Tle":"5000"    
+                },
+                "structure_ecole":[
+                   
+                        {"niveau":" 2nde A","nombres":"8"},
+                        {"niveau":"  2nde C","nombres":"8"},
+                        {"niveau":"1èreA","nombres":"7"},
+                        {"niveau":"1èreC","nombres":"6"},
+                        {"niveau":"1èreD","nombres":"9"},
+                        {"niveau":"Tle A","nombres":"4"},
+                        {"niveau":"Tle C","nombres":"1"},
+                        {"niveau":"Tle D","nombres":"4"}
+                  
+                    ],
+                   "bac":{
+                        "2020/2021":"60,90",
+                        "2021/2022":"62,10"
+                    }
+             },
+             {
+                "id": 2,
+                "nom": " Lycée Moderne de Jeunes Filles de Yopougon",
+                "adresse": "Abidjan",
+                "telephone": [
+                    "07 23 51 06 18 22",
+                    "05 05 41 57 46 90"
+                ],
+                "email": "www.lmjfy.edubicle-ci.org",
+                "Regime":"externe",
+                "picture":{
+                    "image1":"https://th.bing.com/th/id/OIP.vujopkZlShHJlKW697hFHgHaEK?pid=ImgDet&rs=1",
+                    "image2":"https://th.bing.com/th/id/R.138bef97e39502e7e99b8bd85e44590a?rik=myMMdxLPmzi1Cw&pid=ImgRaw&r=0",
+                    "image3":"https://th.bing.com/th/id/R.3d9242222bfa9f0aaf8a0b71545473a0?rik=LL4wdP0criM11A&pid=ImgRaw&r=0"
+                },
+                "Date_ecole":{
+                    "Date_creation" : "1962",
+                    "Date_ouverture" : "1964"
+                },
+                "tranche_scolarité":{
+                        "scolarité-min":"60 000",
+                        "scolarité-max":"100 000",
+                        "Droit_Tle":"5000"
+                    
+                },
+                "structure_ecole":[
+                        {"niveau":" 2nde A","nombres":"7"},
+                        {"niveau":"  2nde C","nombres":"6"},
+                        {"niveau":"1èreA","nombres":"7"},
+                        {"niveau":"1èreC","nombres":"8"},
+                        {"niveau":"1èreD","nombres":"8"},
+                        {"niveau":"Tle A","nombres":"5"},
+                        {"niveau":"Tle C","nombres":"2"},
+                        {"niveau":"Tle D","nombres":"6"}
+                    ],
+                
+                 "bac":{
+                        "2020/2021":"90,90",
+                        "2021/2022":"92,10"
+                    }
+                },
+                {
+                    "id": 3,
+                "nom": "  Lycée Moderne de Yopougon Andokoi",
+                "adresse": "Abidjan",
+                "telephone": [
+                    "07 23 51 06 18 22",
+                    "05 05 41 57 46 90"
+                ],
+                "email": "www.Andokoi.edubicle-ci.org",
+                "Regime":"interne",
+                "picture":{
+                    "image1":"http://lmya.sch-ci.org/Files/slider/fr_hr/DSCF8531.jpg",
+                    "image2":"http://lmya.sch-ci.org/Files/slider/fr_hr/DSCF8843.JPG",
+                    "image3":"http://lmya.sch-ci.org/Files/slider/fr_hr/TOF%201.JPG"
+                },
+                "Date_ecole":{
+                    "Date_creation" : "1970",
+                    "Date_ouverture" : "1971"
+                },
+                "tranche_scolarité":{
+                        "scolarité-min":"60 000",
+                        "scolarité-max":"110 000",
+                        "Droit_Tle":"5000"
+                    
+                },
+                "structure_ecole":[
+                        {"niveau":" 2nde A","nombres":"10"},
+                        {"niveau":"  2nde C","nombres":"8"},
+                        {"niveau":"1èreA","nombres":"7"},
+                        {"niveau":"1èreC","nombres":"8"},
+                        {"niveau":"1èreD","nombres":"8"},
+                        {"niveau":"Tle A","nombres":"65"},
+                        {"niveau":"Tle C","nombres":"3"},
+                        {"niveau":"Tle D","nombres":"6"}
+                    ],
+                
+                 "bac":{
+                        "2020/2021":"60,90",
+                        "2021/2022":"82,10"
+                    }
+                },{
+                     
+                    "id": 4,
+                    "nom": " Lycée Municipale 2 GADIE PIERRE Yopougon",
+                    "adresse": "Abidjan",
+                    "telephone": [
+                        "07 23 54 06 19 23",
+                        "05 05 41 53 46 90"
+                    ],
+                    "email": "www.lm2gpy.edubicle-ci.org",
+                    "Regime":"interne",
+                    "picture":{
+                        "image1":"http://lm2gadiepierre.sch-ci.org/Files/slider/fr_hr/vue%20sur%20cour1.jpg",
+                        "image2":"http://lm2gadiepierre.sch-ci.org/Files/slider/fr_hr/20161021_072552.jpg",
+                        "image3":"http://lm2gadiepierre.sch-ci.org/Files/slider/fr_hr/logo_gde2.gif"
+                    },
+                    "Date_ecole":{
+                        "Date_creation" : "1990",
+                        "Date_ouverture" : "1991"
+                    },
+                    "tranche_scolarité":{
+                            "scolarité-min":"30 000",
+                            "scolarité-max":"80 000",
+                            "Droit_Tle":"5000"
+                        
+                    },
+                    "structure_ecole":[
+                            {"niveau":" 2nde A","nombres":"10"},
+                            {"niveau":"  2nde C","nombres":"10"},
+                            {"niveau":"1èreA","nombres":"7"},
+                            {"niveau":"1èreC","nombres":"8"},
+                            {"niveau":"1èreD","nombres":"6"},
+                            {"niveau":"Tle A","nombres":"5"},
+                            {"niveau":"Tle C","nombres":"2"},
+                            {"niveau":"Tle D","nombres":"8"}
+                        ],
+                    
+                     "bac":{
+                            "2020/2021":"61,31",
+                            "2021/2022":"64,31"
+                        }
+                },
+                {
+                     
+                    "id": 5,
+                    "nom": " Ecole William Ponty",
+                    "adresse": "Abidjan",
+                    "telephone": [
+                        "07 23 54 06 19 23",
+                        "05 05 41 53 46 90"
+                    ],
+                    "email": "www.lm2gpy.edubicle-ci.org",
+                    "Regime":"externe",
+                    "picture":{
+                        "image1":"https://th.bing.com/th/id/OIP.pQGDhnwhDCXJ6AGqzuFwEwHaCv?pid=ImgDet&rs=1",
+                        "image2":"https://i.ytimg.com/vi/cgnPJEL2F4g/hqdefault.jpg",
+                        "image3":"https://th.bing.com/th/id/OIP.mELFgxARHsPrcSkwu4CkoAAAAA?pid=ImgDet&rs=1"
+                    },
+                    "Date_ecole":{
+                        "Date_creation" : "1990",
+                        "Date_ouverture" : "1991"
+                    },
+                    "tranche_scolarité":{
+                            "scolarité-min":"35 000",
+                            "scolarité-max":"85 000",
+                            "Droit_Tle":"5000"
+                        
+                    },
+                    "structure_ecole":[
+                            {"niveau":" 2nde A","nombres":"6"},
+                            {"niveau":"  2nde C","nombres":"6"},
+                            {"niveau":"1èreA","nombres":"7"},
+                            {"niveau":"1èreC","nombres":"8"},
+                            {"niveau":"1èreD","nombres":"6"},
+                            {"niveau":"Tle A","nombres":"4"},
+                            {"niveau":"Tle C","nombres":"1"},
+                            {"niveau":"Tle D","nombres":"4"}
+                        ],
+                    
+                     "bac":{
+                            "2020/2021":"40,31",
+                            "2021/2022":"64,31"
+                        }
+
+                },
+                {
+                    "lieu":"Cocody"
+                },
+                {
+                    "lieu":"Plateau"
+                }
+                
+    
+         ]
+        }
+        
+        }
+        ],
+        "colleges":[
+            {
+                    "lieu":"Yopougon",
+                    "infos":{
+                            "ecole":[
+                                {
+                                    "id": 1,
+                                    "nom": " Collège Sona",
+                                    "adresse": "Abidjan",
+                                    "telephone": [
+                                        "01 01 57 57 40",
+                                        "05 41 57 46 90"
+                                    ],
+                                    "email": "college_sona@yahoo.fr",
+                                    "Regime":"externe",
+                                    "picture":{
+                                        "image1":"http://collegesona.sch-ci.org/files2/images/100_5203.jpg?size=11",
+                                        "image2":"http://collegesona.sch-ci.org/files2/photogallery/568/images%20ro%20003.jpg?size=13",
+                                        "image3":"http://collegesona.sch-ci.org/files2/images/images%20ro%20001.jpg?size=11"
+                                    },
+                                    "Date_ecole":{
+                                        "Date_creation" : "1950",
+                                        "Date_ouverture" : "1960"
+                                    },
+                                    "tranche_scolarité":{
+                                        "scolarité-min":"20 000",
+                                        "scolarité-max":"40 000",
+                                        "Droit_troisieme":"2500"
+                                        
+                                    },
+                                    "structure_ecole":[
+                                        {"niveau":"6ème","nombres":"6"},
+                                            {"niveau":"5ème","nombres":"6"},
+                                            {"niveau":"4ème","nombres":"6"},
+                                            {"niveau":"3ème","nombres":"6"}
+                                    ],
+                                    "bepc":{
+                                        "2020/2021":"62,90",
+                                        "2021/2022":"64,10"
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "nom": " Collège les Phalènes",
+                                    "adresse": "Abidjan",
+                                    "telephone": [
+                                        "07 23 51 07 18 22",
+                                        "05 05 41 97 56 90"
+                                    ],
+                                    "email": "www.collegelesphalenes.edubicle-ci.org",
+                                    "Regime":"externe",
+                                    "picture":{
+                                        "image1":"https://assets.telegraphindia.com/telegraph/2021/Apr/1619544046_28metxav_5c.jpg",
+                                        "image2":"http://collegelesphalenesdeyop.sch-ci.org/Files/slider/fr_hr/Vu%20Bat%203.JPG",
+                                        "image3":"http://collegelesphalenesdeyop.sch-ci.org/Files/slider/fr_hr/Biblioth%C3%A8que%207.JPG"
+                                    },
+                                    "Date_ecole":{
+                                        "Date_creation" : "1990",
+                                        "Date_ouverture" : "1995"
+                                    },
+                                    "tranche_scolarité":{
+                                        
+                                            "scolarité-min":"30 000",
+                                            "scolarité-max":"55 000",
+                                            "Droit_troisieme":"2500"
+                                       
+                                        
+                                    },
+                                    "structure_ecole":
+                                       [
+                                            {"niveau":"6ème","nombres":"10"},
+                                            {"niveau":"5ème","nombres":"10"},
+                                            {"niveau":"4ème","nombres":"10"},
+                                            {"niveau":"3ème","nombres":"10"}
+                                        ]
+                                    ,
+                                    "bepc":{
+                                            "2020/2021":"60,90",
+                                            "2021/2022":"62,10"
+                                        }
+                    
+                                 },
+                                 {
+                                    "id": 3,
+                                    "nom": " Collège Saint Xavier",
+                                    "adresse": "Abidjan",
+                                    "telephone": [
+                                        "07 23 51 07 18 22",
+                                        "05 05 41 97 56 90"
+                                    ],
+                                    "email": "www.collegesaintxavier.edubicle-ci.org",
+                                    "Regime":"externe",
+                                    "picture":{
+                                        "image1":"https://assets.telegraphindia.com/telegraph/2021/Apr/1619544046_28metxav_5c.jpg",
+                                        "image2":"https://th.bing.com/th/id/OIP.zJ6l92WWw1hlWr4f_9_ZGwHaFj?pid=ImgDet&rs=1",
+                                        "image3":"https://assets.telegraphindia.com/telegraph/2021/Apr/1619544046_28metxav_5c.jpg"
+                                    },
+                                    "Date_ecole":{
+                                        "Date_creation" : "1980",
+                                        "Date_ouverture" : "1985"
+                                    },
+                                    "tranche_scolarité":{
+                                            "scolarité-min":"40 000",
+                                            "scolarité-max":"60 000",
+                                            "Droit_troisieme":"2500"
+                                        },
+                                    "structure_ecole":[  
+                                            {"niveau":"6ème","nombres":"10"},
+                                            {"niveau":"5ème","nombres":"10"},
+                                            {"niveau":"4ème","nombres":"10"},
+                                            {"niveau":"3ème","nombres":"10"}
+                                     ],
+                                     "bepc":{
+                                            "2020/2021":"70,90",
+                                            "2021/2022":"82,10"
+                                        }
+                    
+                                 },
+                                 {
+                                    "id": 4,
+                                    "nom": "Collège Sebaco de Yopougon",
+                                    "adresse": "Abidjan",
+                                    "telephone": [
+                                        "07 07 51 07 18 22",
+                                        "01 06 95 79 64"
+                                    ],
+                                    "email": "www.collegesebacodeyopougon.edubicle-ci.org",
+                                    "Regime":"externe",
+                                    "picture":{
+                                        "image1":"https://d19xkzqs4tn92v.cloudfront.net/public/sesgroup_group/fb/74/03/6faaacba8083ea3556f647f84cb210b0.png",
+                                        "image2":"https://th.bing.com/th/id/R.455232f084ef2c25c6e5e68a1f14af52?rik=hwTWLJlZSGhC9Q&pid=ImgRaw&r=0",
+                                        "image3":"https://d19xkzqs4tn92v.cloudfront.net/public/sesgroup_group/fb/74/03/6faaacba8083ea3556f647f84cb210b0.png"
+                                    },
+                                    "Date_ecole":{
+                                        "Date_creation" : "2000",
+                                        "Date_ouverture" : "2002"
+                                    },
+                                    "tranche_scolarité":{
+                                            "scolarité-min":"20 000",
+                                            "scolarité-max":"50 000",
+                                            "Droit_troisieme":"2500"
+                                        },
+                                    "structure_ecole":[  
+                                            {"niveau":"6ème","nombres":"5"},
+                                            {"niveau":"5ème","nombres":"5"},
+                                            {"niveau":"4ème","nombres":"5"},
+                                            {"niveau":"3ème","nombres":"5"}
+                                    ],
+                                    "bepc":{
+                                            "2020/2021":"40,90",
+                                            "2021/2022":"45,10"
+                                        }
+
+                                 },
+                                 {
+                                    "id": 5,
+                                        "nom": "collège saint exupery",
+                                        "adresse": "Abidjan",
+                                        "telephone": [
+                                            "07 07 51 07 18 22",
+                                            "01 06 95 79 64"
+                                        ],
+                                        "email": "www.exuperyyopougon.edubicle-ci.org",
+                                        "Regime":"externe",
+                                        "picture":{
+                                            "image1":"https://scontent.fabj5-2.fna.fbcdn.net/v/t39.30808-6/270203638_149660030748824_4466747341245748326_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=l6ce-7tGvmgAX-H5c1k&_nc_zt=23&_nc_ht=scontent.fabj5-2.fna&oh=00_AfB3kXZaMzVTdpgGTb9430QOugB7lU4eXmUuB-uHC1PNeQ&oe=64463670",
+                                            "image2":"https://scontent.fabj5-2.fna.fbcdn.net/v/t39.30808-6/224847901_107732908274870_1397320025386867086_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=1M6VSVZhrT0AX_rco6q&_nc_zt=23&_nc_ht=scontent.fabj5-2.fna&oh=00_AfABCS7l_W6mPVfAQ-XKxVQoLcvo2EqPYcpAsSeLncLEzg&oe=64465E14",
+                                            "image3":"https://scontent.fabj5-2.fna.fbcdn.net/v/t39.30808-6/224847901_107732908274870_1397320025386867086_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=1M6VSVZhrT0AX_rco6q&_nc_zt=23&_nc_ht=scontent.fabj5-2.fna&oh=00_AfABCS7l_W6mPVfAQ-XKxVQoLcvo2EqPYcpAsSeLncLEzg&oe=64465E14"
+                                        },
+                                        "Date_ecole":{
+                                            "Date_creation" : "1996",
+                                            "Date_ouverture" : "1997"
+                                        },
+                                        "tranche_scolarité":{
+                                                "scolarité-min":"20 000",
+                                                "scolarité-max":"50 000",
+                                                "Droit_troisieme":"2500"
+                                            },
+                                        "structure_ecole":[  
+                                                {"niveau":"6ème","nombres":"5"},
+                                                {"niveau":"5ème","nombres":"5"},
+                                                {"niveau":"4ème","nombres":"5"},
+                                                {"niveau":"3ème","nombres":"5"}
+                                        ],
+                                        "bepc":{
+                                                "2020/2021":"40,90",
+                                                "2021/2022":"45,10"
+                                            }
+                                 }
+                            ]
+                           }
+                 
+                    
+
+                
+            },
+                {
+                    "lieu":"Cocody"
+                },
+                {
+                    "lieu":"Plateau"
+                }
+        ],
+        "primaire": [
+            {
+                "lieu":"Yopougon",
+                "infos":{
+                    "ecole":[
+                         {
+                            "id": "1",
+                            "nom": "École Primaire le Chandelier d'Or Lieu Saint",
+                            "adresse": "Abidjan",
+                            "telephone": [
+                                "06 22 39 84",
+                                "48 94 79 07"
+                            ],
+                            "email": "ecolechandelier@edu.ci",
+                            "Regime":"internat",
+                            "picture":{
+                                "image1":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2885.JPG?size=11",
+                                "image2":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2901.JPG?size=11",
+                                "image3":""
+                            },
+                            "Date_ecole":{
+                                "Date_creation" : "2000",
+                                "Date_ouverture" : "2005"
+                            },
+                            "tranche_scolarité":{
+                               
+                                    "scolarité-min":"30 000",
+                                    "scolarité-max":"50 000",
+                                    "Droit_cm2":"500"
+                                
+                            },
+                            "structure_ecole":
+                               [
+                                    {"niveau":"CP1","nombres":"20"},
+                                    {"niveau":"CP2","nombres":"20"},
+                                    {"niveau":"CE1","nombres":"20"},
+                                    {"niveau":"CE2","nombres":"20"},
+                                    {"niveau":" CM1","nombres":"20"},
+                                    {"niveau":"  CM2","nombres":"20"}
+                                ]
+                            
+                            ,
+                                "CM2":{
+                                    "2020/2021":"90",
+                                    "2021/2022":"92"
+                                }
+                         },
+                         {
+                            "id": "2",
+                            "nom": "École Primaire Anador",
+                            "adresse": "Abidjan",
+                            "telephone": [
+                                "06 22 39 84",
+                                "27 23 51 94 30"
+                            ],
+                            "email": "ecolechandelier@edu.ci",
+                            "Regime":"internat",
+                            "picture":{
+                                "image1":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2885.JPG?size=11",
+                                "image2":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2901.JPG?size=11",
+                                "image3":""
+                            },
+                            "Date_ecole":{
+                                "Date_creation" : "2000",
+                                "Date_ouverture" : "2005"
+                            },
+                            "tranche_scolarité":{
+                               
+                                    "scolarité-min":"30 000",
+                                    "scolarité-max":"50 000",
+                                    "Droit_cm2":"500"
+                                
+                            },
+                            "structure_ecole":
+                               [
+                                    {"niveau":"CP1","nombres":"20"},
+                                    {"niveau":"CP2","nombres":"20"},
+                                    {"niveau":"CE1","nombres":"20"},
+                                    {"niveau":"CE2","nombres":"20"},
+                                    {"niveau":" CM1","nombres":"20"},
+                                    {"niveau":"  CM2","nombres":"20"}
+                                ]
+                            
+                            ,
+                                "CM2":{
+                                    "2020/2021":"90",
+                                    "2021/2022":"92"
+                                }
+
+                         },
+                         {
+                            "id": "1",
+                            "nom": "École Primaire le Chandelier d'Or Lieu Saint",
+                            "adresse": "Abidjan",
+                            "telephone": [
+                                "06 22 39 84",
+                                "48 94 79 07"
+                            ],
+                            "email": "ecolechandelier@edu.ci",
+                            "Regime":"internat",
+                            "picture":{
+                                "image1":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2885.JPG?size=11",
+                                "image2":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2901.JPG?size=11",
+                                "image3":""
+                            },
+                            "Date_ecole":{
+                                "Date_creation" : "2000",
+                                "Date_ouverture" : "2005"
+                            },
+                            "tranche_scolarité":{
+                               
+                                    "scolarité-min":"30 000",
+                                    "scolarité-max":"50 000",
+                                    "Droit_cm2":"500"
+                                
+                            },
+                            "structure_ecole":
+                               [
+                                    {"niveau":"CP1","nombres":"20"},
+                                    {"niveau":"CP2","nombres":"20"},
+                                    {"niveau":"CE1","nombres":"20"},
+                                    {"niveau":"CE2","nombres":"20"},
+                                    {"niveau":" CM1","nombres":"20"},
+                                    {"niveau":"  CM2","nombres":"20"}
+                                ]
+                            
+                            ,
+                                "CM2":{
+                                    "2020/2021":"90",
+                                    "2021/2022":"92"
+                                }
+
+                         },
+                         {
+                            "id": "1",
+                            "nom": "École Primaire le Chandelier d'Or Lieu Saint",
+                            "adresse": "Abidjan",
+                            "telephone": [
+                                "06 22 39 84",
+                                "48 94 79 07"
+                            ],
+                            "email": "ecolechandelier@edu.ci",
+                            "Regime":"internat",
+                            "picture":{
+                                "image1":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2885.JPG?size=11",
+                                "image2":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2901.JPG?size=11",
+                                "image3":""
+                            },
+                            "Date_ecole":{
+                                "Date_creation" : "2000",
+                                "Date_ouverture" : "2005"
+                            },
+                            "tranche_scolarité":{
+                               
+                                    "scolarité-min":"30 000",
+                                    "scolarité-max":"50 000",
+                                    "Droit_cm2":"500"
+                                
+                            },
+                            "structure_ecole":
+                               [
+                                    {"niveau":"CP1","nombres":"20"},
+                                    {"niveau":"CP2","nombres":"20"},
+                                    {"niveau":"CE1","nombres":"20"},
+                                    {"niveau":"CE2","nombres":"20"},
+                                    {"niveau":" CM1","nombres":"20"},
+                                    {"niveau":"  CM2","nombres":"20"}
+                                ]
+                            
+                            ,
+                                "CM2":{
+                                    "2020/2021":"90",
+                                    "2021/2022":"92"
+                                }
+
+                         }
+                     ]
+                }
+                
+            },
+            {
+                "lieu":"Cocody"
+            },
+            {
+                "lieu":"Plateau"
+            }
+           
+            
+
+            ]
+        }
+    
+]
