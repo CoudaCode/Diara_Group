@@ -227,35 +227,43 @@ a{
 /*home section*/
 .home-section{
 	width: 100%;
-	height: 25vh;
-	
-	
-	display: flex;
-	align-items: center;
-	/* justify-content: center; */
-	flex-direction: column;
+	height:100%;
+	background-color: red;
+	display: grid;
+	grid-template-rows:20% 80% ;
+
+
+	/*
+		flex-direction: column;
+	 */
 	
 }
+.home-section h1{
+	text-align: center;
+
+	/* background-color: #000000; */
+}
 .creation{
-	width: 60%;
+	background-color: #545AE8;
+	width: 100%;
 	height: 100%;
-	gap: 20px;
+	/*gap: 20px;
 	display: flex;
 	margin-top:20px ;
 	justify-content: space-around;
 	align-items: center;
-	padding-bottom: 1rem;
+	padding-bottom: 1rem; */
 	
 }
 .creation-img{
-	width: 30%;
+	/* width: 30%;
 	height: 100%;
 	border: .1rem solid var(--colorPrimaire);
 	border-radius: 1rem;
-	overflow: hidden;
+	overflow: hidden; */
 }
 .creation-info{
-	width: 30%;
+	/* width: 30%;
 	height: 100%;
 	border: 2px solid var(--colorPrimaire);
 	border-radius: 1rem;
@@ -266,11 +274,11 @@ a{
 	font-weight: bold;
 	font-size: 1.2rem;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 600;
+	font-weight: 600; */
 }
 
 .creation-info li{
-	margin-bottom: 1.8rem;
+	/* margin-bottom: 1.8rem; */
 
 }
 
@@ -279,26 +287,28 @@ a{
 .class-section
 {
 	width: 100%;
-	height: 40vh;
-	margin-top:40px ;
+	background-color: #1B8AF1;
+	height:100%;
+	/*margin-top:40px ;
 	display: flex;
 	margin-top:10% ;
 	align-items: center;
 	/* justify-content: center; */
-	flex-direction: column;
+	/* flex-direction: column;
+	background-color: #333333; */ 
 }
 
 .Cycle{
-	width: 60%;
+	/* width: 60%;
 	height: 100%;
 	gap: 20px;
 	display: flex;
 	margin-top:1%;
 	justify-content: space-around;
-	align-items: center;
+	align-items: center; */
 }
 .PremierCycle{
-	width: 40%;
+	/* width: 40%;
 	height: 80%;
 	border: .1rem solid var(--colorPrimaire);
 	border-radius: 1rem;
@@ -306,15 +316,20 @@ a{
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; */
 }
 .PremierCycle p{
-	text-align: center;
-	font-size: 1.5rem;
-	font-family: 'Montserrat';
+	/* text-align: center;
+	font-size: 1.1rem;
+	font-family: 'Montserrat'; */
+}
+.PremierCycle h1{
+	/* text-align: center;
+	font-size: 1rem;
+	font-family: 'Montserrat'; */
 }
 .secondCycle{
-	width: 40%;
+	/* width: 40%;
 	height: 80%;
 	border: 2px solid var(--colorPrimaire);
 	border-radius: 1rem;
@@ -322,20 +337,46 @@ a{
 	justify-content: space-around;
 	align-items: center;
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 1.2rem; */
 }
 
 
 .PremierTitle, .sixTitle, .quatreTitle, .cinqTitle, .troisTitle{
-	display: flex;
-	width: 80%;
+	/* display: flex;
+	width: 60%;
 	height: auto;
-	justify-content: space-around;
+	justify-content: space-around; */
 }
 
 
 
+/* Localisation Section */
 
+.localistion-section{
+	background-color: white;
+	width: 100%;
+	height:100%;
+
+}
+
+/* Resultats Section */
+
+.resultats-section{
+	width: 100%;
+	height:100%;
+	background-color: lime;
+}
+
+.element{
+		width: 100%;
+		height: 150vh;
+		background: #000000;
+		margin-top: 5%;
+		display: grid;
+		gap: 10px;
+		grid-template-rows: repeat(auto-fill , 25%);
+		
+}
 /* responsive */
 
 @media(max-width: 991px){
@@ -412,9 +453,9 @@ a{
 		flex-direction: column;
 		height: auto;
 	}
-	.home-section {
+	/* .home-section {
 		margin-top: 20px;
-	}
+	} */
 	.creation-img{
 		width: auto;
 	}
@@ -422,5 +463,20 @@ a{
 		width: auto;
 		
 }
+
+.PremierCycle p{
+	
+	font-size: 1.1rem;
+	
+}
+.PremierCycle h1{
+	
+	font-size: 1rem;
+	
+}
+
+	.Cycle{
+		flex-direction: column;
+	}
 }
 
