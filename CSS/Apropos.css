@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #edf2f8;
+}
+
+/* HEADER */
+header {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  color: #545ae8;
+}
+header img {
+  width: 120px;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/* MAIN_IMAGE */
+.main_image {
+  background-image: url("../IMAGES/etudiants-africains-850x478.jpeg");
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 532px;
+}
+.main_image h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 220px;
+  font-size: 3.2rem;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.main_image p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.2rem;
+  color: white;
+}
+/* contener */
+
+.contener {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 30%;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 23px;
+  padding: 1%;
+}
+.box1 > h1 {
+  width: 95%;
+  color: white;
+  background: #545ae8;
+  border-radius: 8px;
+  padding: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 100%;
+}
+
+.box1 > p {
+  font-size: 100%;
+  padding: 5%;
+}
+.box2 {
+  width: 40%;
+  text-align: center;
+
+  height: 55%;
+}
+.box2 > img {
+  width: 80%;
+}
+/*  notre equipe*/
+h2 {
+  text-align: center;
+  padding: 5%;
+}
+/* card */
+.contener1 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 5%;
+  /* border: 1px solid black; */
+  width: 53%;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+p {
+  line-height: 1.5;
+  margin: 0 auto 1em;
+}
+h3 {
+  line-height: 1;
+  margin: 0 auto 1rem;
+  padding: 0;
+  display: block;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+p {
+  line-height: 1.5;
+  margin: 0 auto 1em;
+}
+.card > h3 {
+  line-height: 1;
+  margin: 0 auto 1rem;
+  padding: 0;
+  text-align: center;
+  display: block;
+  font-weight: 600;
+}
+.card {
+  display: block;
+  width: 70%;
+  max-width: 480px;
+  max-width: 320px;
+  max-width: 340px;
+  max-width: 360px;
+  margin-right: 10px;
+  /* margin-left: 1%; */
+  background-color: #fff;
+  border-radius: 1.75rem;
+
+  box-shadow: 0 16px 24px -12px rgba(black, 0.15);
+}
+
+img {
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 23px 23px 5px 5px;
+  box-shadow: 0 16px 24px -12px rgba(black, 0.15);
+}
+
+h3 {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+.contener2 {
+  color: white;
+}
+.contener2 > img {
+  height: 15vh;
+  object-fit: cover;
+}
+form > input[type="text"] {
+  width: 30%;
+  height: 45px;
+  border: transparent;
+}
+form > input[type="submit"] {
+  width: 10%;
+  height: 45px;
+  background-color: #545ae8;
+  border: transparent;
+}
+form {
+  text-align: center;
+  transform: translateY(-170%);
+}

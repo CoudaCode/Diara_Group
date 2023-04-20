@@ -6,18 +6,20 @@
 
 :root{
 	--colorPrimaire : #545AE8;
+	--border: #1B8AF1;
 	
 }
 
 
 body{
 	line-height: 1.5;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	background-color: #EDF2F8;
 }
-body.hidden-scrolling{
+/* body.hidden-scrolling{
 	overflow-y: hidden;
-}
+} */
 *{
 	margin:0;
 	box-sizing: border-box;
@@ -29,12 +31,12 @@ body.hidden-scrolling{
 /* Content */
 .content{
 	width: 100%;
-	height: 80vh;
+	height: 90%;
 	background-color: #545AE8;
 	justify-content: center;
 	display: flex;
 	align-items: center;
-	min-height: 80%;
+	/* min-height: 80%; */
 	background-image: url('../IMAGES/pexels-photo-207691.jpeg');
 	background-position: center top;
 	background-size: cover;
@@ -64,17 +66,17 @@ a{
 
 /*header*/
 .header{
-	position: absolute;
+	/* position: absolute; */
 	width: 100%;
-	left:0;
-	height: 80vh;
-	top:0;
-	z-index: 99;
+	
+	height: 100vh;
+	
+	/* z-index: 99; */
 	/* padding: 15px; */
 }
 
 .header-main{
-	background-color: #ffffff;
+	
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -225,14 +227,156 @@ a{
 /*home section*/
 .home-section{
 	width: 100%;
-	display: block;
-	min-height: 100vh;
-	/* background-image: url('../img/home.jpg'); */
-	background-position: center top;
-	background-size: cover;
+	height:100%;
+	background-color: red;
+	display: grid;
+	grid-template-rows:20% 80% ;
+
+
+	/*
+		flex-direction: column;
+	 */
+	
+}
+.home-section h1{
+	text-align: center;
+
+	/* background-color: #000000; */
+}
+.creation{
+	background-color: #545AE8;
+	width: 100%;
+	height: 100%;
+	/*gap: 20px;
+	display: flex;
+	margin-top:20px ;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 1rem; */
+	
+}
+.creation-img{
+	/* width: 30%;
+	height: 100%;
+	border: .1rem solid var(--colorPrimaire);
+	border-radius: 1rem;
+	overflow: hidden; */
+}
+.creation-info{
+	/* width: 30%;
+	height: 100%;
+	border: 2px solid var(--colorPrimaire);
+	border-radius: 1rem;
+	display: flex;
+	background-color: white;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+	font-size: 1.2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600; */
+}
+
+.creation-info li{
+	/* margin-bottom: 1.8rem; */
+
+}
+
+/* Classe Section */
+
+.class-section
+{
+	width: 100%;
+	background-color: #1B8AF1;
+	height:100%;
+	/*margin-top:40px ;
+	display: flex;
+	margin-top:10% ;
+	align-items: center;
+	/* justify-content: center; */
+	/* flex-direction: column;
+	background-color: #333333; */ 
+}
+
+.Cycle{
+	/* width: 60%;
+	height: 100%;
+	gap: 20px;
+	display: flex;
+	margin-top:1%;
+	justify-content: space-around;
+	align-items: center; */
+}
+.PremierCycle{
+	/* width: 40%;
+	height: 80%;
+	border: .1rem solid var(--colorPrimaire);
+	border-radius: 1rem;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center; */
+}
+.PremierCycle p{
+	/* text-align: center;
+	font-size: 1.1rem;
+	font-family: 'Montserrat'; */
+}
+.PremierCycle h1{
+	/* text-align: center;
+	font-size: 1rem;
+	font-family: 'Montserrat'; */
+}
+.secondCycle{
+	/* width: 40%;
+	height: 80%;
+	border: 2px solid var(--colorPrimaire);
+	border-radius: 1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+	font-size: 1.2rem; */
 }
 
 
+.PremierTitle, .sixTitle, .quatreTitle, .cinqTitle, .troisTitle{
+	/* display: flex;
+	width: 60%;
+	height: auto;
+	justify-content: space-around; */
+}
+
+
+
+/* Localisation Section */
+
+.localistion-section{
+	background-color: white;
+	width: 100%;
+	height:100%;
+
+}
+
+/* Resultats Section */
+
+.resultats-section{
+	width: 100%;
+	height:100%;
+	background-color: lime;
+}
+
+.element{
+		width: 100%;
+		height: 150vh;
+		background: #000000;
+		margin-top: 5%;
+		display: grid;
+		gap: 10px;
+		grid-template-rows: repeat(auto-fill , 25%);
+		
+}
 /* responsive */
 
 @media(max-width: 991px){
@@ -304,6 +448,35 @@ a{
 	.header .close-nav-menu,
 	.header .open-nav-menu{
 		display: flex;
+	}
+	.creation{
+		flex-direction: column;
+		height: auto;
+	}
+	/* .home-section {
+		margin-top: 20px;
+	} */
+	.creation-img{
+		width: auto;
+	}
+	.creation-info{
+		width: auto;
+		
+}
+
+.PremierCycle p{
+	
+	font-size: 1.1rem;
+	
+}
+.PremierCycle h1{
+	
+	font-size: 1rem;
+	
+}
+
+	.Cycle{
+		flex-direction: column;
 	}
 }
 

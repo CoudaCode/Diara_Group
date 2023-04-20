@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+a
+{
+    color: black;
+    text-decoration: none;
+}
 body
 {
     background-color: white;
@@ -23,6 +28,7 @@ header nav
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 60px;
+    font-size: 1.2rem;
 }
 nav ul
 {
@@ -34,14 +40,14 @@ nav ul
     padding-top: 20px;
     cursor: pointer;
 }
-nav ul li:hover
+nav ul li:hover , ul li a:hover
 {
     color: #545AE8;
 }
 header img
 {
     width: 120px;
-    height: 50px;
+    height: 80px;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -53,7 +59,7 @@ header img
     display: flex;
     width: 100%;
     height: 100%;
-    padding-bottom: 5.6%;
+    padding-bottom: 5.2%;
 }
 .infoContact
 {
@@ -119,18 +125,16 @@ h2
 {
     margin-left: 50px;
 }
-.mail i
-{
-}
 .formContact
 {
     margin-top: 30px;
     margin-left: 30%;
-    width: 30%;
+    width: 35%;
     font-size: 1.3rem;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     height: 100%;
     background-color: white;
+    cursor: pointer;
 }
