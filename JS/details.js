@@ -65,5 +65,64 @@
    });
  
  })();
+
+
+ //Recuperation de Id 
+ const sourceId=window.location.search.split("?").join("");
+console.log('sourceId: '+sourceId);
+
+
+let dataLycee = [];
+let dataColleges = [];
+let dataPrimaire = [];
+let data=[]
+
+let entete=document.querySelector('.hero>h1')
+
+window.addEventListener("load", getDataCycle);
+
+async function getDataCycle() {
+  const response = await fetch('../JSON/ecoles.json');
+  const ecoles = await response.json();
+
+  // Extraire les données de chaque cycle d'études
+  dataLycee = extractEcoles(ecoles[0].Lycée);
+  dataColleges = extractEcoles(ecoles[1].colleges);
+  dataPrimaire = extractEcoles(ecoles[2].primaire);
+
+
+recupereData(dataPrimaire)
+recupereData(dataColleges)
+recupereData(dataLycee)
+}
+
+function extractEcoles(items) {
+  return items.map(item => item.infos.ecole);
+}
+
+
+function recupereData(tabs){
+   tabs.forEach(element => {
+      element.forEach(tt=>{
+         data.push(tt)
+      })   
+   });  
+   displayDetails(data)  
+}
+
+// fonction qui verifie id et affiche les infos
+function displayDetails(tab){
+   data.forEach(el=>{
+      if(el.id==sourceId){
+
+         //Ajoute les elements de ta page ici !!!
+          entete.textContent=`${el.nom}`
+         // console.log('element',el)
+      }
+      
+   })
+}
+ 
+ 
  
  
