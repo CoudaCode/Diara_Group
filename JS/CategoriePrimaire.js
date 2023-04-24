@@ -3,7 +3,7 @@ const texteComplet = "TOUT COMMENCE PAR UNE BONNE ECOLE PRIMAIRE";
 		let index = 0;
 
 		function afficherLettre() {
-			const texte = document.querySelector('.main_image>h1');
+			const texte = document.querySelector('.home-section>h1');
 			texte.innerHTML += texteComplet.charAt(index);
 			index++;
 
@@ -113,6 +113,7 @@ function searchDisplay(data, text) {
       }
     }
     blocs.innerHTML = row2;
+    sendId(dataFinal)
     
   }
   
