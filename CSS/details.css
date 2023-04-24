@@ -44,7 +44,6 @@ a{
 /*header*/
 .header{
 	width: 100%;
-	
 	padding: 0.1rem;
 }
 .header-main{
@@ -548,7 +547,18 @@ footer{
 	font-size: 30px;
    
   }
-  
+  /* .hero{
+		width: 40%;
+		margin:10px auto;
+		height: calc(50vh - 64px);
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		background-color: red;
+		
+	} */
   
   
   
@@ -743,4 +753,3 @@ footer{
 		display: flex;
 	}
 }
-
