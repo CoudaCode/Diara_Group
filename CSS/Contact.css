@@ -138,3 +138,36 @@ h2
     background-color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width : 600px) {
+    .contacts{
+        width: 100%;
+    }
+    .contacts i{
+        font-size: 1rem;
+    }
+    .infoContact p{
+        font-size: 100%;
+    }
+    .infoContact h2{
+        font-size: 100%;
+    }
+    .border{
+        left: 27%;
+        bottom: -1%;
+    }
+    .border2{
+        right: 32%;
+        bottom: -1%;
+    }
+    .formContact{
+
+        font-size: 100%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .telephone{
+        padding-left: 2%;
+    }
+    
+}
