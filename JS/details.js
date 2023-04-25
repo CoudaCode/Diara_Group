@@ -146,5 +146,5 @@ function displayDetails(tab){
    })
 }
  
-})
+
 
