@@ -520,17 +520,13 @@ function gestion2(base){
                   <span class="mtn1">${base.tranche_scolarité.scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité.scolarité_max}</span>Fcfa
                </p>
                <p>
-                  <span class="mtn1">Droit D'examen Tle</span>: <span class="mtn2">${base.tranche_scolarité.Droit_Tle}</span>Fcfa
+                  <span class="mtn1">Droit D'examen CM2</span>: <span class="mtn2">${base.tranche_scolarité.Droit_cm2}</span>Fcfa
                </p>
             </div>
                                        
          </div>
       `
-      
-      
-      
-      
-      
+     
       eleCycle.innerHTML=cycleCm
       resExam.innerHTML=resCm2
       droitExamDiv.innerHTML=tarifCm2
