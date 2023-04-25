@@ -138,15 +138,11 @@ function displayDetails(tab){
             console.log("Le premier mot ne correspond à aucun cas");
           }
           
-         
-      
-        
       }
       
    })
 }
  
-
 
 
 let eleCycle=document.querySelector('.Cycle');
@@ -156,32 +152,60 @@ let elemBloc=document.querySelector('.local-info')
 function gestion1(base){
  
 let cycleseconde=`
-<div class="PremierCycle">
-   <div class="PremierTitle">
-      <h1>Second Cycle</h1>
-      <h1>Nombre</h1>
-   </div>
-   <div class="sixTitle">
-      <p>${base.structure_ecole[0].niveau} / ${base.structure_ecole[1].niveau}</p>
-      <p class="six">
-            <span class="sdcA">${base.structure_ecole[0].nombres}</span> /  <span class="sdcC">${base.structure_ecole[1].nombres}</span> 
-      </p>
-   </div>
-   <div class="cinqTitle">
-   <p>${base.structure_ecole[2].niveau} / ${base.structure_ecole[3].niveau}</p>
-   <p class="six">
-         <span class="sdcA">${base.structure_ecole[2].nombres}</span> /  <span class="sdcC">${base.structure_ecole[3].nombres}</span> 
-   </p>
-   </div>
-      <div class="quatreTitle">
-         <p>${base.structure_ecole[4].niveau}/${base.structure_ecole[5].niveau}/${base.structure_ecole[6].niveau}</p>
-         <p class="six">
-               <span class="TleA">${base.structure_ecole[4].nombres}</span> /  <span class="TleC">${base.structure_ecole[5].nombres}</span>/
-               <span class="TleC">${base.structure_ecole[6].nombres}</span>
-         </p>
-      </div>
-   </div>
-</div> `
+
+         <div class="PremierCycle"> 
+               <div class="PremierTitle">
+                  <h1>Premier Cycle</h1>
+                  <h1>Nombre</h1>
+               </div>
+               <div class="sixTitle">
+                  <p>${base.structure_ecole[0].niveau}</p>
+                  <p class="six">${base.structure_ecole[0].nombres}</p>
+               </div>
+               <div class="cinqTitle">
+                  <p>${base.structure_ecole[1].niveau}</p>
+                  <p class="cinq">${base.structure_ecole[1].nombres}</p>
+               </div>
+               <div class="quatreTitle">
+                  <p>${base.structure_ecole[2].niveau}</p>
+                  <p class="quatre">${base.structure_ecole[2].nombres}</p>
+               </div>
+               <div class="troisTitle">
+                  <p>${base.structure_ecole[3].niveau}</p>
+                  <p class="trois">${base.structure_ecole[3].nombres}</p>
+               </div>
+         </div>
+            
+            
+      <div class="PremierCycle">
+               <div class="PremierTitle">
+                  <h1>Second Cycle</h1>
+                  <h1>Nombre</h1>
+               </div>
+               <div class="sixTitle">
+                  <p>${base.structure_ecole[4].niveau} / ${base.structure_ecole[5].niveau}</p>
+                  <p class="six">
+                        <span class="sdcA">${base.structure_ecole[4].nombres}</span> /  <span class="sdcC">${base.structure_ecole[4].nombres}</span> 
+                  </p>
+               </div>
+               <div class="cinqTitle">
+                     <p>${base.structure_ecole[6].niveau} / ${base.structure_ecole[7].niveau } / ${base.structure_ecole[8].niveau }</p>
+                     <p class="six">
+                           <span class="sdcA">${base.structure_ecole[6].nombres}</span> /  
+                           <span class="sdcC">${base.structure_ecole[7].nombres} </span> /
+                           <span class="sdcA">${base.structure_ecole[8].nombres}</span> 
+                     </p>
+               </div>
+               <div class="quatreTitle">
+                     <p>${base.structure_ecole[9].niveau}/${base.structure_ecole[10].niveau}/${base.structure_ecole[11].niveau}</p>
+                     <p class="six">
+                           <span class="TleA">${base.structure_ecole[9].nombres}</span> /  <span class="TleC">${base.structure_ecole[10].nombres}</span>/
+                           <span class="TleC">${base.structure_ecole[11].nombres}</span>
+                     </p>
+               </div>
+      </div> 
+
+`
 
 let resTle=`
 <div class="bac">

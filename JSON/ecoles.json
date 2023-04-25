@@ -33,9 +33,12 @@
                                     "Droit_Tle":"5000"    
                             },
                             "structure_ecole":[
-                                    
+                                    {"niveau":"6ème","nombres":"9"},
+                                    {"niveau":"5ème","nombres":"10"},
+                                    {"niveau":"4ème","nombres":"7"},
+                                    {"niveau":"3ème","nombres":"6"},
                                     {"niveau":"2nde A","nombres":"8"},
-                                    {"niveau":"2nde C","nombres":"8"},
+                                    {"niveau":"2nde C","nombres":"12"},
                                     {"niveau":"1èreA","nombres":"7"},
                                     {"niveau":"1èreC","nombres":"6"},
                                     {"niveau":"1èreD","nombres":"9"},
@@ -77,6 +80,10 @@
                                 
                             },
                             "structure_ecole":[
+                                    {"niveau":"6ème","nombres":"9"},
+                                    {"niveau":"5ème","nombres":"10"},
+                                    {"niveau":"4ème","nombres":"7"},
+                                    {"niveau":"3ème","nombres":"6"},
                                     {"niveau":" 2nde A","nombres":"7"},
                                     {"niveau":"  2nde C","nombres":"6"},
                                     {"niveau":"1èreA","nombres":"7"},
@@ -119,6 +126,10 @@
                                 
                             },
                             "structure_ecole":[
+                                    {"niveau":"6ème","nombres":"9"},
+                                    {"niveau":"5ème","nombres":"10"},
+                                    {"niveau":"4ème","nombres":"7"},
+                                    {"niveau":"3ème","nombres":"6"},
                                     {"niveau":" 2nde A","nombres":"10"},
                                     {"niveau":"  2nde C","nombres":"8"},
                                     {"niveau":"1èreA","nombres":"7"},
@@ -160,6 +171,10 @@
                                     
                                 },
                                 "structure_ecole":[
+                                        {"niveau":"6ème","nombres":"9"},
+                                        {"niveau":"5ème","nombres":"10"},
+                                        {"niveau":"4ème","nombres":"7"},
+                                        {"niveau":"3ème","nombres":"6"},
                                         {"niveau":"2nde A","nombres":"10"},
                                         {"niveau":"2nde C","nombres":"10"},
                                         {"niveau":"1èreA","nombres":"7"},
@@ -202,6 +217,10 @@
                                     
                                 },
                                 "structure_ecole":[
+                                        {"niveau":"6ème","nombres":"9"},
+                                        {"niveau":"5ème","nombres":"10"},
+                                        {"niveau":"4ème","nombres":"7"},
+                                        {"niveau":"3ème","nombres":"6"},
                                         {"niveau":" 2nde A","nombres":"6"},
                                         {"niveau":"  2nde C","nombres":"6"},
                                         {"niveau":"1èreA","nombres":"7"},
@@ -254,7 +273,10 @@
                                     "Droit_Tle":"5000"    
                             },
                             "structure_ecole":[
-                               
+                                    {"niveau":"6ème","nombres":"9"},
+                                    {"niveau":"5ème","nombres":"10"},
+                                    {"niveau":"4ème","nombres":"7"},
+                                    {"niveau":"3ème","nombres":"6"},
                                     {"niveau":" 2nde A","nombres":"8"},
                                     {"niveau":"  2nde C","nombres":"8"},
                                     {"niveau":"1èreA","nombres":"7"},
@@ -294,9 +316,13 @@
                                     "scolarité_min":"60 000",
                                     "scolarité_max":"120 000",
                                     "Droit_Tle":"5500"
-                                
+                                    
                             },
                             "structure_ecole":[
+                                    {"niveau":"6ème","nombres":"9"},
+                                    {"niveau":"5ème","nombres":"10"},
+                                    {"niveau":"4ème","nombres":"7"},
+                                    {"niveau":"3ème","nombres":"6"},
                                     {"niveau":" 2nde A","nombres":"7"},
                                     {"niveau":"  2nde C","nombres":"6"},
                                     {"niveau":"1èreA","nombres":"7"},
@@ -310,10 +336,12 @@
                              "bac":{
                                     "ann_scolaire1":"50,90",
                                     "ann_scolaire2":"62,10"
-                                }
-             }
-                        
-                        
+                                },
+                            "bepc":{
+                                "ann_scolaire1":"50,90",
+                                "ann_scolaire2":"62,10"
+                            }
+             }       
                     ]
                 }
          
@@ -358,11 +386,14 @@
                             "scolarité_min":"60 000",
                             "scolarité_max":"120 000",
                             "Droit_Tle":"5500"
-                        
                     },
                     "structure_ecole":[
-                            {"niveau":" 2nde A","nombres":"7"},
-                            {"niveau":"  2nde C","nombres":"6"},
+                            {"niveau":"6ème","nombres":"9"},
+                            {"niveau":"5ème","nombres":"10"},
+                            {"niveau":"4ème","nombres":"7"},
+                            {"niveau":"3ème","nombres":"6"},
+                            {"niveau":"2nde A","nombres":"7"},
+                            {"niveau":"2nde C","nombres":"6"},
                             {"niveau":"1èreA","nombres":"7"},
                             {"niveau":"1èreC","nombres":"8"},
                             {"niveau":"1èreD","nombres":"8"},
