@@ -27,30 +27,43 @@
                                 "Date_creation" : "1900",
                                 "Date_ouverture" : "1910"
                             },
-                            "tranche_scolarité":{
+                            "tranche_scolarité":[   
+                                {
                                     "scolarité_min":"60 000",
-                                    "scolarité_max":"100 000",
-                                    "Droit_Tle":"5000"    
-                            },
-                            "structure_ecole":[
-                                    {"niveau":"6ème","nombres":"9"},
-                                    {"niveau":"5ème","nombres":"10"},
-                                    {"niveau":"4ème","nombres":"7"},
-                                    {"niveau":"3ème","nombres":"6"},
-                                    {"niveau":"2nde A","nombres":"8"},
-                                    {"niveau":"2nde C","nombres":"12"},
-                                    {"niveau":"1èreA","nombres":"7"},
-                                    {"niveau":"1èreC","nombres":"6"},
-                                    {"niveau":"1èreD","nombres":"9"},
-                                    {"niveau":"Tle A","nombres":"4"},
-                                    {"niveau":"Tle C","nombres":"1"},
-                                    {"niveau":"Tle D","nombres":"4"}
-                              
-                                ],
-                               "bac":{
-                                    "ann_scolaire1":"60,90",
-                                    "ann_scolaire2":"62,10"
+                                    "scolarité_max":"120 000",
+                                    "Droit_3e":"2000"
+                                },
+                                {
+                                    "scolarité_min":"60 000",
+                                    "scolarité_max":"120 000",
+                                    "Droit_Tle":"5000"
                                 }
+                            ]
+                            
+                    ,
+                    "structure_ecole":[
+                            {"niveau":"6ème","nombres":"9"},
+                            {"niveau":"5ème","nombres":"10"},
+                            {"niveau":"4ème","nombres":"7"},
+                            {"niveau":"3ème","nombres":"6"},
+                            {"niveau":"2nde A","nombres":"7"},
+                            {"niveau":"2nde C","nombres":"6"},
+                            {"niveau":"1èreA","nombres":"7"},
+                            {"niveau":"1èreC","nombres":"8"},
+                            {"niveau":"1èreD","nombres":"8"},
+                            {"niveau":"Tle A","nombres":"5"},
+                            {"niveau":"Tle C","nombres":"2"},
+                            {"niveau":"Tle D","nombres":"6"}
+                        ],
+
+                     "bac":{
+                            "ann_scolaire1":"50,90",
+                            "ann_scolaire2":"62,10"
+                        },
+                    "bepc":{
+                        "ann_scolaire1":"58,90",
+                        "ann_scolaire2":"79,10"
+                    }
                          },
                          {
     
@@ -73,31 +86,43 @@
                                 "Date_creation" : "1962",
                                 "Date_ouverture" : "1964"
                             },
-                            "tranche_scolarité":{
+                            "tranche_scolarité":[   
+                                {
                                     "scolarité_min":"60 000",
-                                    "scolarité_max":"100 000",
+                                    "scolarité_max":"120 000",
+                                    "Droit_3e":"2000"
+                                },
+                                {
+                                    "scolarité_min":"60 000",
+                                    "scolarité_max":"120 000",
                                     "Droit_Tle":"5000"
-                                
-                            },
-                            "structure_ecole":[
-                                    {"niveau":"6ème","nombres":"9"},
-                                    {"niveau":"5ème","nombres":"10"},
-                                    {"niveau":"4ème","nombres":"7"},
-                                    {"niveau":"3ème","nombres":"6"},
-                                    {"niveau":" 2nde A","nombres":"7"},
-                                    {"niveau":"  2nde C","nombres":"6"},
-                                    {"niveau":"1èreA","nombres":"7"},
-                                    {"niveau":"1èreC","nombres":"8"},
-                                    {"niveau":"1èreD","nombres":"8"},
-                                    {"niveau":"Tle A","nombres":"5"},
-                                    {"niveau":"Tle C","nombres":"2"},
-                                    {"niveau":"Tle D","nombres":"6"}
-                                ],
-                            
-                             "bac":{
-                                    "ann_scolaire1":"90,90",
-                                    "ann_scolaire2":"92,10"
                                 }
+                            ]
+                            
+                    ,
+                    "structure_ecole":[
+                            {"niveau":"6ème","nombres":"9"},
+                            {"niveau":"5ème","nombres":"10"},
+                            {"niveau":"4ème","nombres":"7"},
+                            {"niveau":"3ème","nombres":"6"},
+                            {"niveau":"2nde A","nombres":"7"},
+                            {"niveau":"2nde C","nombres":"6"},
+                            {"niveau":"1èreA","nombres":"7"},
+                            {"niveau":"1èreC","nombres":"8"},
+                            {"niveau":"1èreD","nombres":"8"},
+                            {"niveau":"Tle A","nombres":"5"},
+                            {"niveau":"Tle C","nombres":"2"},
+                            {"niveau":"Tle D","nombres":"6"}
+                        ],
+
+                     "bac":{
+                            "ann_scolaire1":"50,90",
+                            "ann_scolaire2":"62,10"
+                        },
+                    "bepc":{
+                        "ann_scolaire1":"58,90",
+                        "ann_scolaire2":"79,10"
+                    }
                             },
                             {
                                 "lieu":"Yopougon",
@@ -119,31 +144,43 @@
                                 "Date_creation" : "1970",
                                 "Date_ouverture" : "1971"
                             },
-                            "tranche_scolarité":{
-                                    "scolarité_min":"60 000",
-                                    "scolarité_max":"110 000",
-                                    "Droit_Tle":"5000"
-                                
+                            "tranche_scolarité":[   
+                            {
+                                "scolarité_min":"60 000",
+                                "scolarité_max":"120 000",
+                                "Droit_3e":"2000"
                             },
-                            "structure_ecole":[
-                                    {"niveau":"6ème","nombres":"9"},
-                                    {"niveau":"5ème","nombres":"10"},
-                                    {"niveau":"4ème","nombres":"7"},
-                                    {"niveau":"3ème","nombres":"6"},
-                                    {"niveau":" 2nde A","nombres":"10"},
-                                    {"niveau":"  2nde C","nombres":"8"},
-                                    {"niveau":"1èreA","nombres":"7"},
-                                    {"niveau":"1èreC","nombres":"8"},
-                                    {"niveau":"1èreD","nombres":"8"},
-                                    {"niveau":"Tle A","nombres":"65"},
-                                    {"niveau":"Tle C","nombres":"3"},
-                                    {"niveau":"Tle D","nombres":"6"}
-                                ],
-                            
-                             "bac":{
-                                    "ann_scolaire1":"60,90",
-                                    "ann_scolaire2":"82,10"
-                                }
+                            {
+                                "scolarité_min":"60 000",
+                                "scolarité_max":"120 000",
+                                "Droit_Tle":"5000"
+                            }
+                        ]
+                        
+                ,
+                "structure_ecole":[
+                        {"niveau":"6ème","nombres":"9"},
+                        {"niveau":"5ème","nombres":"10"},
+                        {"niveau":"4ème","nombres":"7"},
+                        {"niveau":"3ème","nombres":"6"},
+                        {"niveau":"2nde A","nombres":"7"},
+                        {"niveau":"2nde C","nombres":"6"},
+                        {"niveau":"1èreA","nombres":"7"},
+                        {"niveau":"1èreC","nombres":"8"},
+                        {"niveau":"1èreD","nombres":"8"},
+                        {"niveau":"Tle A","nombres":"5"},
+                        {"niveau":"Tle C","nombres":"2"},
+                        {"niveau":"Tle D","nombres":"6"}
+                    ],
+
+                 "bac":{
+                        "ann_scolaire1":"50,90",
+                        "ann_scolaire2":"62,10"
+                    },
+                "bepc":{
+                    "ann_scolaire1":"58,90",
+                    "ann_scolaire2":"79,10"
+                }
                             },{
                                 "lieu":"Yopougon",
                                 "id": "L4",
@@ -164,31 +201,43 @@
                                     "Date_creation" : "1990",
                                     "Date_ouverture" : "1991"
                                 },
-                                "tranche_scolarité":{
-                                        "scolarité_min":"30 000",
-                                        "scolarité_max":"80 000",
+                                "tranche_scolarité":[   
+                                    {
+                                        "scolarité_min":"60 000",
+                                        "scolarité_max":"120 000",
+                                        "Droit_3e":"2000"
+                                    },
+                                    {
+                                        "scolarité_min":"60 000",
+                                        "scolarité_max":"120 000",
                                         "Droit_Tle":"5000"
-                                    
-                                },
-                                "structure_ecole":[
-                                        {"niveau":"6ème","nombres":"9"},
-                                        {"niveau":"5ème","nombres":"10"},
-                                        {"niveau":"4ème","nombres":"7"},
-                                        {"niveau":"3ème","nombres":"6"},
-                                        {"niveau":"2nde A","nombres":"10"},
-                                        {"niveau":"2nde C","nombres":"10"},
-                                        {"niveau":"1èreA","nombres":"7"},
-                                        {"niveau":"1èreC","nombres":"8"},
-                                        {"niveau":"1èreD","nombres":"6"},
-                                        {"niveau":"Tle A","nombres":"5"},
-                                        {"niveau":"Tle C","nombres":"2"},
-                                        {"niveau":"Tle D","nombres":"8"}
-                                    ],
-                                
-                                 "bac":{
-                                        "ann_scolaire1":"61,31",
-                                        "ann_scolaire2":"64,31"
                                     }
+                                ]
+                                
+                        ,
+                        "structure_ecole":[
+                                {"niveau":"6ème","nombres":"9"},
+                                {"niveau":"5ème","nombres":"10"},
+                                {"niveau":"4ème","nombres":"7"},
+                                {"niveau":"3ème","nombres":"6"},
+                                {"niveau":"2nde A","nombres":"7"},
+                                {"niveau":"2nde C","nombres":"6"},
+                                {"niveau":"1èreA","nombres":"7"},
+                                {"niveau":"1èreC","nombres":"8"},
+                                {"niveau":"1èreD","nombres":"8"},
+                                {"niveau":"Tle A","nombres":"5"},
+                                {"niveau":"Tle C","nombres":"2"},
+                                {"niveau":"Tle D","nombres":"6"}
+                            ],
+
+                         "bac":{
+                                "ann_scolaire1":"50,90",
+                                "ann_scolaire2":"62,10"
+                            },
+                        "bepc":{
+                            "ann_scolaire1":"58,90",
+                            "ann_scolaire2":"79,10"
+                        }
                             },
                             {
                                 "lieu":"Yopougon",  
@@ -210,31 +259,43 @@
                                     "Date_creation" : "1990",
                                     "Date_ouverture" : "1991"
                                 },
-                                "tranche_scolarité":{
-                                        "scolarité_min":"35 000",
-                                        "scolarité_max":"85 000",
+                                "tranche_scolarité":[   
+                                    {
+                                        "scolarité_min":"60 000",
+                                        "scolarité_max":"120 000",
+                                        "Droit_3e":"2000"
+                                    },
+                                    {
+                                        "scolarité_min":"60 000",
+                                        "scolarité_max":"120 000",
                                         "Droit_Tle":"5000"
-                                    
-                                },
-                                "structure_ecole":[
-                                        {"niveau":"6ème","nombres":"9"},
-                                        {"niveau":"5ème","nombres":"10"},
-                                        {"niveau":"4ème","nombres":"7"},
-                                        {"niveau":"3ème","nombres":"6"},
-                                        {"niveau":" 2nde A","nombres":"6"},
-                                        {"niveau":"  2nde C","nombres":"6"},
-                                        {"niveau":"1èreA","nombres":"7"},
-                                        {"niveau":"1èreC","nombres":"8"},
-                                        {"niveau":"1èreD","nombres":"6"},
-                                        {"niveau":"Tle A","nombres":"4"},
-                                        {"niveau":"Tle C","nombres":"1"},
-                                        {"niveau":"Tle D","nombres":"4"}
-                                    ],
-                                
-                                 "bac":{
-                                        "ann_scolaire1":"40,31",
-                                        "ann_scolaire2":"64,31"
                                     }
+                                ]
+                                
+                        ,
+                        "structure_ecole":[
+                                {"niveau":"6ème","nombres":"9"},
+                                {"niveau":"5ème","nombres":"10"},
+                                {"niveau":"4ème","nombres":"7"},
+                                {"niveau":"3ème","nombres":"6"},
+                                {"niveau":"2nde A","nombres":"7"},
+                                {"niveau":"2nde C","nombres":"6"},
+                                {"niveau":"1èreA","nombres":"7"},
+                                {"niveau":"1èreC","nombres":"8"},
+                                {"niveau":"1èreD","nombres":"8"},
+                                {"niveau":"Tle A","nombres":"5"},
+                                {"niveau":"Tle C","nombres":"2"},
+                                {"niveau":"Tle D","nombres":"6"}
+                            ],
+
+                         "bac":{
+                                "ann_scolaire1":"50,90",
+                                "ann_scolaire2":"62,10"
+                            },
+                        "bepc":{
+                            "ann_scolaire1":"58,90",
+                            "ann_scolaire2":"79,10"
+                        }
             
                             }      
                       
@@ -267,30 +328,43 @@
                                 "Date_creation" : "1966",
                                 "Date_ouverture" : "1961"
                             },
-                            "tranche_scolarité":{
+                            "tranche_scolarité":[   
+                                {
                                     "scolarité_min":"60 000",
                                     "scolarité_max":"120 000",
-                                    "Droit_Tle":"5000"    
-                            },
-                            "structure_ecole":[
-                                    {"niveau":"6ème","nombres":"9"},
-                                    {"niveau":"5ème","nombres":"10"},
-                                    {"niveau":"4ème","nombres":"7"},
-                                    {"niveau":"3ème","nombres":"6"},
-                                    {"niveau":" 2nde A","nombres":"8"},
-                                    {"niveau":"  2nde C","nombres":"8"},
-                                    {"niveau":"1èreA","nombres":"7"},
-                                    {"niveau":"1èreC","nombres":"6"},
-                                    {"niveau":"1èreD","nombres":"9"},
-                                    {"niveau":"Tle A","nombres":"6"},
-                                    {"niveau":"Tle C","nombres":"3"},
-                                    {"niveau":"Tle D","nombres":"6"}
-                              
-                                ],
-                               "bac":{
-                                    "ann_scolaire1":"70,90",
-                                    "ann_scolaire2":"80,10"
+                                    "Droit_3e":"2000"
+                                },
+                                {
+                                    "scolarité_min":"60 000",
+                                    "scolarité_max":"120 000",
+                                    "Droit_Tle":"5000"
                                 }
+                            ]
+                            
+                    ,
+                    "structure_ecole":[
+                            {"niveau":"6ème","nombres":"9"},
+                            {"niveau":"5ème","nombres":"10"},
+                            {"niveau":"4ème","nombres":"7"},
+                            {"niveau":"3ème","nombres":"6"},
+                            {"niveau":"2nde A","nombres":"7"},
+                            {"niveau":"2nde C","nombres":"6"},
+                            {"niveau":"1èreA","nombres":"7"},
+                            {"niveau":"1èreC","nombres":"8"},
+                            {"niveau":"1èreD","nombres":"8"},
+                            {"niveau":"Tle A","nombres":"5"},
+                            {"niveau":"Tle C","nombres":"2"},
+                            {"niveau":"Tle D","nombres":"6"}
+                        ],
+
+                     "bac":{
+                            "ann_scolaire1":"50,90",
+                            "ann_scolaire2":"62,10"
+                        },
+                    "bepc":{
+                        "ann_scolaire1":"58,90",
+                        "ann_scolaire2":"79,10"
+                    }
                          },
                          {
                             "lieu":"Cocody",
@@ -312,19 +386,27 @@
                                 "Date_creation" : "1990",
                                 "Date_ouverture" : "1994"
                             },
-                            "tranche_scolarité":{
-                                    "scolarité_min":"60 000",
-                                    "scolarité_max":"120 000",
-                                    "Droit_Tle":"5500"
+                            "tranche_scolarité":[   
+                                        {
+                                            "scolarité_min":"60 000",
+                                            "scolarité_max":"120 000",
+                                            "Droit_3e":"2000"
+                                        },
+                                        {
+                                            "scolarité_min":"60 000",
+                                            "scolarité_max":"120 000",
+                                            "Droit_Tle":"5000"
+                                        }
+                                    ]
                                     
-                            },
+                            ,
                             "structure_ecole":[
                                     {"niveau":"6ème","nombres":"9"},
                                     {"niveau":"5ème","nombres":"10"},
                                     {"niveau":"4ème","nombres":"7"},
                                     {"niveau":"3ème","nombres":"6"},
-                                    {"niveau":" 2nde A","nombres":"7"},
-                                    {"niveau":"  2nde C","nombres":"6"},
+                                    {"niveau":"2nde A","nombres":"7"},
+                                    {"niveau":"2nde C","nombres":"6"},
                                     {"niveau":"1èreA","nombres":"7"},
                                     {"niveau":"1èreC","nombres":"8"},
                                     {"niveau":"1èreD","nombres":"8"},
@@ -332,14 +414,14 @@
                                     {"niveau":"Tle C","nombres":"2"},
                                     {"niveau":"Tle D","nombres":"6"}
                                 ],
-                            
+
                              "bac":{
                                     "ann_scolaire1":"50,90",
                                     "ann_scolaire2":"62,10"
                                 },
                             "bepc":{
-                                "ann_scolaire1":"50,90",
-                                "ann_scolaire2":"62,10"
+                                "ann_scolaire1":"58,90",
+                                "ann_scolaire2":"79,10"
                             }
              }       
                     ]
@@ -382,30 +464,43 @@
                             "Date_creation" : "1990",
                             "Date_ouverture" : "1992"
                         },
-                        "tranche_scolarité":{
-                            "scolarité_min":"60 000",
-                            "scolarité_max":"120 000",
-                            "Droit_Tle":"5500"
+                        "tranche_scolarité":[   
+                            {
+                                "scolarité_min":"60 000",
+                                "scolarité_max":"120 000",
+                                "Droit_3e":"2000"
+                            },
+                            {
+                                "scolarité_min":"60 000",
+                                "scolarité_max":"120 000",
+                                "Droit_Tle":"5000"
+                            }
+                        ]
+                        
+                ,
+                "structure_ecole":[
+                        {"niveau":"6ème","nombres":"9"},
+                        {"niveau":"5ème","nombres":"10"},
+                        {"niveau":"4ème","nombres":"7"},
+                        {"niveau":"3ème","nombres":"6"},
+                        {"niveau":"2nde A","nombres":"7"},
+                        {"niveau":"2nde C","nombres":"6"},
+                        {"niveau":"1èreA","nombres":"7"},
+                        {"niveau":"1èreC","nombres":"8"},
+                        {"niveau":"1èreD","nombres":"8"},
+                        {"niveau":"Tle A","nombres":"5"},
+                        {"niveau":"Tle C","nombres":"2"},
+                        {"niveau":"Tle D","nombres":"6"}
+                    ],
+
+                 "bac":{
+                        "ann_scolaire1":"50,90",
+                        "ann_scolaire2":"62,10"
                     },
-                    "structure_ecole":[
-                            {"niveau":"6ème","nombres":"9"},
-                            {"niveau":"5ème","nombres":"10"},
-                            {"niveau":"4ème","nombres":"7"},
-                            {"niveau":"3ème","nombres":"6"},
-                            {"niveau":"2nde A","nombres":"7"},
-                            {"niveau":"2nde C","nombres":"6"},
-                            {"niveau":"1èreA","nombres":"7"},
-                            {"niveau":"1èreC","nombres":"8"},
-                            {"niveau":"1èreD","nombres":"8"},
-                            {"niveau":"Tle A","nombres":"5"},
-                            {"niveau":"Tle C","nombres":"2"},
-                            {"niveau":"Tle D","nombres":"6"}
-                        ],
-                    
-                     "bac":{
-                            "ann_scolaire1":"50,90",
-                            "ann_scolaire2":"62,10"
-                        }
+                "bepc":{
+                    "ann_scolaire1":"58,90",
+                    "ann_scolaire2":"79,10"
+                }
                     }
                     
                 ]
@@ -447,9 +542,9 @@
                                 },
                                 "structure_ecole":[
                                     {"niveau":"6ème","nombres":"6"},
-                                        {"niveau":"5ème","nombres":"6"},
-                                        {"niveau":"4ème","nombres":"6"},
-                                        {"niveau":"3ème","nombres":"6"}
+                                    {"niveau":"5ème","nombres":"6"},
+                                    {"niveau":"4ème","nombres":"6"},
+                                    {"niveau":"3ème","nombres":"6"}
                                 ],
                                 "bepc":{
                                     "ann_scolaire1":"62,90",

@@ -207,69 +207,127 @@ let cycleseconde=`
 
 `
 
-let resTle=`
-<div class="bac">
-       <h3>BAC</h3>
-      <div class="bacyear1">
-         <p>20/21 :</p>
-         <p>${base.bac.ann_scolaire1}</p>
-      </div>
-      <div class="bacyear2">
-         <p>20/22 :</p>
-         <p>${base.bac.ann_scolaire2}</p>
-      </div>
-</div>
+// let resTle=`
+// <div class="bac">
+//        <h3>BAC</h3>
+//       <div class="bacyear1">
+//          <p>20/21 :</p>
+//          <p>${base.bac.ann_scolaire1}</p>
+//       </div>
+//       <div class="bacyear2">
+//          <p>20/22 :</p>
+//          <p>${base.bac.ann_scolaire2}</p>
+//       </div>
+// </div>
+// `
+
+let restTlePres = `
+         <div class="bepc">
+            <h3>BEPC</h3>
+            <div class="bpyear1">
+               <p>20/21 :</p>
+               <p>${base.bepc.ann_scolaire1}</p>
+            </div>
+            <div class="bpyear2">
+               <p>21/22 :</p>
+               <p>${base.bepc.ann_scolaire1}</p>
+            </div>
+         </div>
+         <div class="bac">
+            <h3>BAC</h3>
+            <div class="bacyear1">
+               <p>20/21 :</p>
+               <p>${base.bac.ann_scolaire1}</p>
+            </div>
+            <div class="bacyear2">
+               <p>20/22 :</p>
+               <p>${base.bac.ann_scolaire2}</p>
+            </div>
+         </div>   
 `
-let infosAdresse=`
-                             <div class="commune">
-                                 <p>Commune</p>
-                                 <p class="com">${base.lieu}</p>
-                              </div>
-                              <div class="commune">
-                                 <p>Situation GeoGraphique</p>
-                                 <p class="GeoGraphique">${base.lieu} Abidjan</p>
-                              </div>
-                              <div class="commune">
-                                 <p>Adresse Postale :</p>
-                                 <p class="situation"> 08 BP 40 ABIDJAN 08</p>
-                              </div>
-                              <div class="commune">
-                                 <p>Adresse Mail</p>
-                                 <p class="mail">${base.email}</p>
-                              </div>
-                              <div class="commune">
-                                 <p>Telepone</p>
-                                 <p class="tel">${base.telephone[0]} /${base.telephone[1]}</p>
-                              </div>
-                              <div class="commune">
-                                 <p>Regime</p>
-                                 <p class="regime">${base.Regime}</p>
-                              </div>
-                              <div class="commune">
-                                 <p>Categorie</p>
-                                 <p class="Categorie">Mixte</p>
-                              </div>
+let infosAdresse=
+`
+            <div class="commune">
+               <p>Commune</p>
+               <p class="com">${base.lieu}</p>
+            </div>
+            <div class="commune">
+               <p>Situation GeoGraphique</p>
+               <p class="GeoGraphique">${base.lieu} Abidjan</p>
+            </div>
+            <div class="commune">
+               <p>Adresse Postale :</p>
+               <p class="situation"> 08 BP 40 ABIDJAN 08</p>
+            </div>
+            <div class="commune">
+               <p>Adresse Mail</p>
+               <p class="mail">${base.email}</p>
+            </div>
+            <div class="commune">
+               <p>Telepone</p>
+               <p class="tel">${base.telephone[0]} /${base.telephone[1]}</p>
+            </div>
+            <div class="commune">
+               <p>Regime</p>
+               <p class="regime">${base.Regime}</p>
+            </div>
+            <div class="commune">
+               <p>Categorie</p>
+               <p class="Categorie">Mixte</p>
+            </div>
 `
 
-let tarifTle=`
-<div class="first">
-   <h3>2nd Cycle</h3>
-   <div class="firstCyc">
-      <div class="elemOne">
-         <p>
-            <span class="mtn1">${base.tranche_scolarité.scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité.scolarité_max}</span>Fcfa
-         </p>
-         <p>
-            <span class="mtn1">Droit D'examen Tle</span>: <span class="mtn2">${base.tranche_scolarité.Droit_Tle}</span>Fcfa
-         </p>
-      </div>
+//  let tarifTle=`
+// // <div class="first">
+// //    <h3>2nd Cycle</h3>
+// //    <div class="firstCyc">
+// //       <div class="elemOne">
+// //          <p>
+// //             <span class="mtn1">${base.tranche_scolarité.scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité.scolarité_max}</span>Fcfa
+// //          </p>
+// //          <p>
+// //             <span class="mtn1">Droit D'examen Tle</span>: <span class="mtn2">${base.tranche_scolarité.Droit_Tle}</span>Fcfa
+// //          </p>
+// //       </div>
                                  
-   </div>
+// //    </div>
+//  `
+let tarifTle = `
+      <div class="first">
+      <h3>1er Cycle</h3>
+      <div class="firstCyc">
+            <div class="elemOne">
+                  <p>
+                     <span class="mtn1">${base.tranche_scolarité[0].scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité[0].scolarité_max}</span>Fcfa
+                  </p>
+                  <p>
+                     <span class="mtn1">Droit D'examen 3ième</span>: <span class="mtn2">${base.tranche_scolarité[0].Droit_3e}</span>Fcfa
+                  </p>
+            </div>
+         
+      </div>
+
+      </div>
+      <div class="second">
+      <h3>2nd Cycle</h3>
+      <div class="secondCyc">
+            <div class="elemOne">
+                  <p>
+                     <span class="mtn1">${base.tranche_scolarité[1].scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité[1].scolarité_max}</span>Fcfa
+                  </p>
+                  <p>
+                     <span class="mtn1">Droit D'examen Terminale</span>: <span class="mtn2">${base.tranche_scolarité[1].Droit_Tle}</span>Fcfa
+                  </p>
+            </div>
+         
+      </div>
+
+      </div>   
 `
 
 
 eleCycle.innerHTML=cycleseconde
-resExam.innerHTML=resTle
+resExam.innerHTML=restTlePres
 droitExamDiv.innerHTML=tarifTle
 elemBloc.innerHTML=infosAdresse
 }
@@ -348,14 +406,14 @@ function gestion2(base){
    
    let tarifThree=`
    <div class="first">
-      <h3>2nd Cycle</h3>
+      <h3>1er Cycle</h3>
       <div class="firstCyc">
          <div class="elemOne">
             <p>
                <span class="mtn1">${base.tranche_scolarité.scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité.scolarité_max}</span>Fcfa
             </p>
             <p>
-               <span class="mtn1">Droit D'examen 3ième</span>: <span class="mtn2">${base.tranche_scolarité.Droit_Tle}</span>Fcfa
+               <span class="mtn1">Droit D'examen 3ième</span>: <span class="mtn2">${base.tranche_scolarité.Droit_troisieme}</span>Fcfa
             </p>
          </div>
                                     
@@ -423,34 +481,34 @@ function gestion2(base){
       </div>
       `
       let infosAdresse=`
-                                   <div class="commune">
-                                       <p>Commune</p>
-                                       <p class="com">${base.lieu}</p>
-                                    </div>
-                                    <div class="commune">
-                                       <p>Situation GeoGraphique</p>
-                                       <p class="GeoGraphique">${base.lieu} Abidjan</p>
-                                    </div>
-                                    <div class="commune">
-                                       <p>Adresse Postale :</p>
-                                       <p class="situation"> 08 BP 40 ABIDJAN 08</p>
-                                    </div>
-                                    <div class="commune">
-                                       <p>Adresse Mail</p>
-                                       <p class="mail">${base.email}</p>
-                                    </div>
-                                    <div class="commune">
-                                       <p>Telepone</p>
-                                       <p class="tel">${base.telephone[0]} /${base.telephone[1]}</p>
-                                    </div>
-                                    <div class="commune">
-                                       <p>Regime</p>
-                                       <p class="regime">${base.Regime}</p>
-                                    </div>
-                                    <div class="commune">
-                                       <p>Categorie</p>
-                                       <p class="Categorie">Mixte</p>
-                                    </div>
+                           <div class="commune">
+                                 <p>Commune</p>
+                                 <p class="com">${base.lieu}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Situation GeoGraphique</p>
+                                 <p class="GeoGraphique">${base.lieu} Abidjan</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Adresse Postale :</p>
+                                 <p class="situation"> 08 BP 40 ABIDJAN 08</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Adresse Mail</p>
+                                 <p class="mail">${base.email}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Telepone</p>
+                                 <p class="tel">${base.telephone[0]} /${base.telephone[1]}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Regime</p>
+                                 <p class="regime">${base.Regime}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Categorie</p>
+                                 <p class="Categorie">Mixte</p>
+                              </div>
       `
       
       let tarifCm2=`
