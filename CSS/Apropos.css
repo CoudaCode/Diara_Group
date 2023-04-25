@@ -1,9 +1,4 @@
-/* MAIN_IMAGE */
-.home-section > h1 {
-  text-align: center;
-  color: #fff;
- position: absolute;
-}
+
 /* contener */
 
 .contener {
@@ -289,7 +284,21 @@ a {
   min-height: 80vh;
   background-image: url("../IMAGES/pexels-photo-207691.jpeg");
   background-position: center top;
-  background-size: cover;
+    background-size: cover;
+    height: 732px;
+    display: flex;
+    justify-content: center;
+}
+.home-section h1
+{
+    text-align: center;
+    padding-top: 220px;
+    font-size: 2.6rem;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 60%;
+    height: auto;
 }
 
 /* header */
