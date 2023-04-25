@@ -1,3 +1,4 @@
+ 
 window.addEventListener('DOMContentLoaded', ()=>{
    const openNavMenu = document.querySelector(".open-nav-menu"),
    closeNavMenu = document.querySelector(".close-nav-menu"),
@@ -59,10 +60,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
       if(this.innerWidth > mediaSize){
         resizeFix();
       }
-   });
-   
-   
-   //Recuperation de Id 
+   })})
+
+//Recuperation de Id 
    
    
    
@@ -75,7 +75,13 @@ let dataColleges = [];
 let dataPrimaire = [];
 let data=[]
 
-let entete=document.querySelector('.hero>h1')
+let entete=document.querySelector('.home-section>h1')
+let date1=document.querySelector('.dt-create1');
+let date2=document.querySelector('.dt-create2');
+let cardImage1=document.querySelector('.creation-img');
+let cardImage2=document.querySelector('.local-img');
+let cardImage3=document.querySelector('.result-img');
+let cardImage4=document.querySelector('.tranch-img');
 
 window.addEventListener("load", getDataCycle);
 
@@ -115,11 +121,30 @@ function displayDetails(tab){
 
          //Ajoute les elements de ta page ici !!!
           entete.textContent=`${el.nom}`
-         // console.log('element',el)
+          cardImage1.innerHTML=`<img src="${el.picture.image1}" width="100%" height="100%" alt="">`
+          cardImage2.innerHTML=`<img src="${el.picture.image2}" width="100%" height="100%" alt="">`
+          cardImage3.innerHTML=`<img src="${el.picture.image3}" width="100%" height="100%" alt="">`
+          cardImage4.innerHTML=`<img src="https://images.unsplash.com/photo-1585432959315-d9342fd58eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNjb2xhcml0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" width="100%" height="100%" alt="">`
+          date1.textContent=`${el.Date_ecole.Date_creation}`
+          date2.textContent=`${el.Date_ecole.Date_ouverture}`
+          console.log('test-details',el)
+          if(el.id.split("")[0] === "L") {
+            gestion1(el);
+          } else if(el.id.split("")[0] === "P") {
+            gestion3(el);
+          } else if(el.id.split("")[0] === "C") {
+            gestion2(el);
+          } else {
+            console.log("Le premier mot ne correspond à aucun cas");
+          }
+          
+         
+      
+        
       }
       
    })
 }
+ 
 })
-
 

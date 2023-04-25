@@ -1,9 +1,9 @@
 //animation texte//
-const texteComplet = "OFFREZ UN CADRE ACADEMIQUE IDEAL A VOS ENFANTS";
+const texteComplet = "OFFREZ UN CADRE ACADEMIQUE IDEAL  A VOS ENFANTS";
 		let index = 0;
 
 		function afficherLettre() {
-			const texte = document.querySelector('.main_image>h1');
+			const texte = document.querySelector('.home-section>h1');
 			texte.innerHTML += texteComplet.charAt(index);
 			index++;
 
@@ -112,6 +112,7 @@ function searchDisplay(data, text) {
       }
     }
     blocs.innerHTML = row2;
+    sendId(dataFinal)
     
   } 
    //Fonction qui renvoie id dans la barre de recherche au click de l'image
