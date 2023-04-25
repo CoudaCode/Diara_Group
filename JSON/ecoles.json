@@ -33,9 +33,9 @@
                                     "Droit_Tle":"5000"    
                             },
                             "structure_ecole":[
-                               
-                                    {"niveau":" 2nde A","nombres":"8"},
-                                    {"niveau":"  2nde C","nombres":"8"},
+                                    
+                                    {"niveau":"2nde A","nombres":"8"},
+                                    {"niveau":"2nde C","nombres":"8"},
                                     {"niveau":"1èreA","nombres":"7"},
                                     {"niveau":"1èreC","nombres":"6"},
                                     {"niveau":"1èreD","nombres":"9"},

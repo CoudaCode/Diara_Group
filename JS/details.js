@@ -120,6 +120,9 @@ function displayDetails(tab){
       
    })
 }
- 
+
+
+
 })
+
 
