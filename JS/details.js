@@ -148,3 +148,309 @@ function displayDetails(tab){
  
 
 
+
+let eleCycle=document.querySelector('.Cycle');
+let resExam=document.querySelector('.result-info');
+let droitExamDiv=document.querySelector('.tranch-info');
+let elemBloc=document.querySelector('.local-info')
+function gestion1(base){
+ 
+let cycleseconde=`
+<div class="PremierCycle">
+   <div class="PremierTitle">
+      <h1>Second Cycle</h1>
+      <h1>Nombre</h1>
+   </div>
+   <div class="sixTitle">
+      <p>${base.structure_ecole[0].niveau} / ${base.structure_ecole[1].niveau}</p>
+      <p class="six">
+            <span class="sdcA">${base.structure_ecole[0].nombres}</span> /  <span class="sdcC">${base.structure_ecole[1].nombres}</span> 
+      </p>
+   </div>
+   <div class="cinqTitle">
+   <p>${base.structure_ecole[2].niveau} / ${base.structure_ecole[3].niveau}</p>
+   <p class="six">
+         <span class="sdcA">${base.structure_ecole[2].nombres}</span> /  <span class="sdcC">${base.structure_ecole[3].nombres}</span> 
+   </p>
+   </div>
+      <div class="quatreTitle">
+         <p>${base.structure_ecole[4].niveau}/${base.structure_ecole[5].niveau}/${base.structure_ecole[6].niveau}</p>
+         <p class="six">
+               <span class="TleA">${base.structure_ecole[4].nombres}</span> /  <span class="TleC">${base.structure_ecole[5].nombres}</span>/
+               <span class="TleC">${base.structure_ecole[6].nombres}</span>
+         </p>
+      </div>
+   </div>
+</div> `
+
+let resTle=`
+<div class="bac">
+       <h3>BAC</h3>
+      <div class="bacyear1">
+         <p>20/21 :</p>
+         <p>${base.bac.ann_scolaire1}</p>
+      </div>
+      <div class="bacyear2">
+         <p>20/22 :</p>
+         <p>${base.bac.ann_scolaire2}</p>
+      </div>
+</div>
+`
+let infosAdresse=`
+                             <div class="commune">
+                                 <p>Commune</p>
+                                 <p class="com">${base.lieu}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Situation GeoGraphique</p>
+                                 <p class="GeoGraphique">${base.lieu} Abidjan</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Adresse Postale :</p>
+                                 <p class="situation"> 08 BP 40 ABIDJAN 08</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Adresse Mail</p>
+                                 <p class="mail">${base.email}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Telepone</p>
+                                 <p class="tel">${base.telephone[0]} /${base.telephone[1]}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Regime</p>
+                                 <p class="regime">${base.Regime}</p>
+                              </div>
+                              <div class="commune">
+                                 <p>Categorie</p>
+                                 <p class="Categorie">Mixte</p>
+                              </div>
+`
+
+let tarifTle=`
+<div class="first">
+   <h3>2nd Cycle</h3>
+   <div class="firstCyc">
+      <div class="elemOne">
+         <p>
+            <span class="mtn1">${base.tranche_scolarité.scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité.scolarité_max}</span>Fcfa
+         </p>
+         <p>
+            <span class="mtn1">Droit D'examen Tle</span>: <span class="mtn2">${base.tranche_scolarité.Droit_Tle}</span>Fcfa
+         </p>
+      </div>
+                                 
+   </div>
+`
+
+
+eleCycle.innerHTML=cycleseconde
+resExam.innerHTML=resTle
+droitExamDiv.innerHTML=tarifTle
+elemBloc.innerHTML=infosAdresse
+}
+
+
+function gestion2(base){
+  
+   let cyclefirst=`
+   <div class="PremierCycle"> 
+      <div class="PremierTitle">
+         <h1>Premier Cycle</h1>
+         <h1>Nombre</h1>
+      </div>
+      <div class="sixTitle">
+         <p>${base.structure_ecole[0].niveau}</p>
+         <p class="six">${base.structure_ecole[0].nombres}</p>
+      </div>
+      <div class="cinqTitle">
+         <p>${base.structure_ecole[1].niveau}</p>
+         <p class="cinq">${base.structure_ecole[1].nombres}</p>
+      </div>
+      <div class="quatreTitle">
+         <p>${base.structure_ecole[2].niveau}</p>
+         <p class="quatre">${base.structure_ecole[2].nombres}</p>
+      </div>
+      <div class="troisTitle">
+         <p>${base.structure_ecole[3].niveau}</p>
+         <p class="trois">${base.structure_ecole[3].nombres}</p>
+      </div>
+   </div>
+  `
+   
+   let resthree=`
+   <div class="bac">
+          <h3>BEPC</h3>
+         <div class="bacyear1">
+            <p>20/21 :</p>
+            <p>${base.bepc.ann_scolaire1}</p>
+         </div>
+         <div class="bacyear2">
+            <p>20/22 :</p>
+            <p>${base.bepc.ann_scolaire2}</p>
+         </div>
+   </div>
+   `
+   let infosAdresse=`
+                                <div class="commune">
+                                    <p>Commune</p>
+                                    <p class="com">${base.lieu}</p>
+                                 </div>
+                                 <div class="commune">
+                                    <p>Situation GeoGraphique</p>
+                                    <p class="GeoGraphique">${base.lieu} Abidjan</p>
+                                 </div>
+                                 <div class="commune">
+                                    <p>Adresse Postale :</p>
+                                    <p class="situation"> 08 BP 40 ABIDJAN 08</p>
+                                 </div>
+                                 <div class="commune">
+                                    <p>Adresse Mail</p>
+                                    <p class="mail">${base.email}</p>
+                                 </div>
+                                 <div class="commune">
+                                    <p>Telepone</p>
+                                    <p class="tel">${base.telephone[0]} /${base.telephone[1]}</p>
+                                 </div>
+                                 <div class="commune">
+                                    <p>Regime</p>
+                                    <p class="regime">${base.Regime}</p>
+                                 </div>
+                                 <div class="commune">
+                                    <p>Categorie</p>
+                                    <p class="Categorie">Mixte</p>
+                                 </div>
+   `
+   
+   let tarifThree=`
+   <div class="first">
+      <h3>2nd Cycle</h3>
+      <div class="firstCyc">
+         <div class="elemOne">
+            <p>
+               <span class="mtn1">${base.tranche_scolarité.scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité.scolarité_max}</span>Fcfa
+            </p>
+            <p>
+               <span class="mtn1">Droit D'examen 3ième</span>: <span class="mtn2">${base.tranche_scolarité.Droit_Tle}</span>Fcfa
+            </p>
+         </div>
+                                    
+      </div>
+   `
+   
+   
+   
+   
+   
+   eleCycle.innerHTML=cyclefirst
+   resExam.innerHTML=resthree
+   droitExamDiv.innerHTML=tarifThree
+   elemBloc.innerHTML=infosAdresse
+   }
+   
+
+   
+   function gestion3(base){
+
+      let cycleCm=`
+            <div class="PremierCycle"> 
+               <div class="PremierTitle">
+                  <h1>Primaire</h1>
+                  <h1>Nombre</h1>
+               </div>
+               <div class="sixTitle">
+                  <p>${base.structure_ecole[0].niveau}</p>
+                  <p class="six">${base.structure_ecole[0].nombres}</p>
+               </div>
+               <div class="cinqTitle">
+                  <p>${base.structure_ecole[1].niveau}</p>
+                  <p class="cinq">${base.structure_ecole[1].nombres}</p>
+               </div>
+               <div class="quatreTitle">
+                  <p>${base.structure_ecole[2].niveau}</p>
+                  <p class="quatre">${base.structure_ecole[2].nombres}</p>
+               </div>
+               <div class="troisTitle">
+                  <p>${base.structure_ecole[3].niveau}</p>
+                  <p class="trois">${base.structure_ecole[3].nombres}</p>
+               </div>
+               <div class="troisTitle">
+                  <p>${base.structure_ecole[4].niveau}</p>
+                  <p class="trois">${base.structure_ecole[4].nombres}</p>
+               </div>
+               <div class="troisTitle">
+                  <p>${base.structure_ecole[5].niveau}</p>
+                  <p class="trois">${base.structure_ecole[5].nombres}</p>
+               </div>
+            </div>
+      `
+      
+      let resCm2=`
+      <div class="bac">
+             <h3>CM2</h3>
+            <div class="bacyear1">
+               <p>20/21 :</p>
+               <p>${base.cm2.ann_scolaire1}</p>
+            </div>
+            <div class="bacyear2">
+               <p>20/22 :</p>
+               <p>${base.cm2.ann_scolaire2}</p>
+            </div>
+      </div>
+      `
+      let infosAdresse=`
+                                   <div class="commune">
+                                       <p>Commune</p>
+                                       <p class="com">${base.lieu}</p>
+                                    </div>
+                                    <div class="commune">
+                                       <p>Situation GeoGraphique</p>
+                                       <p class="GeoGraphique">${base.lieu} Abidjan</p>
+                                    </div>
+                                    <div class="commune">
+                                       <p>Adresse Postale :</p>
+                                       <p class="situation"> 08 BP 40 ABIDJAN 08</p>
+                                    </div>
+                                    <div class="commune">
+                                       <p>Adresse Mail</p>
+                                       <p class="mail">${base.email}</p>
+                                    </div>
+                                    <div class="commune">
+                                       <p>Telepone</p>
+                                       <p class="tel">${base.telephone[0]} /${base.telephone[1]}</p>
+                                    </div>
+                                    <div class="commune">
+                                       <p>Regime</p>
+                                       <p class="regime">${base.Regime}</p>
+                                    </div>
+                                    <div class="commune">
+                                       <p>Categorie</p>
+                                       <p class="Categorie">Mixte</p>
+                                    </div>
+      `
+      
+      let tarifCm2=`
+      <div class="first">
+         <h3>2nd Cycle</h3>
+         <div class="firstCyc">
+            <div class="elemOne">
+               <p>
+                  <span class="mtn1">${base.tranche_scolarité.scolarité_min}</span>Fcfa à <span class="mtn2">${base.tranche_scolarité.scolarité_max}</span>Fcfa
+               </p>
+               <p>
+                  <span class="mtn1">Droit D'examen Tle</span>: <span class="mtn2">${base.tranche_scolarité.Droit_Tle}</span>Fcfa
+               </p>
+            </div>
+                                       
+         </div>
+      `
+      
+      
+      
+      
+      
+      eleCycle.innerHTML=cycleCm
+      resExam.innerHTML=resCm2
+      droitExamDiv.innerHTML=tarifCm2
+      elemBloc.innerHTML=infosAdresse
+      }
