@@ -1,17 +1,21 @@
 /* MAIN_IMAGE */
 .home-section > h1 {
   text-align: center;
+  top: 45%;
+  font-size: 45px;
+  left: 45%;
   color: #fff;
- position: absolute;
+  position: absolute;
 }
 /* contener */
-
+ 
 .contener {
   margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
-
   width: 100%;
+  left: 50%;
+ opacity: 0;
   justify-content: center;
   align-items: center;
 }
@@ -489,6 +493,9 @@ a {
   opacity: 0;
   transition: all 0.3s ease;
 }
+.card > p {
+  text-align: center;
+}
 
 /* responsive */
 @media (min-width: 992px) {
@@ -656,6 +663,12 @@ a {
     display: flex;
   }
 }
+
+@media (max-width: 1440px) {
+  .contener1 {
+    width: 50%;
+  }
+}
 @media (width: 1024px) {
   .home-section {
     width: 100%;
@@ -670,7 +683,8 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 25%;
+    top: 30%;
+    left: 35%;
     font-size: 2.5rem;
   }
   .box1 {
@@ -706,7 +720,8 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 35%;
+    top: 30%;
+    left: 35%;
     font-size: 2.5rem;
   }
   .box1 {
@@ -739,8 +754,13 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 45%;
+    top: 22%;
+    left: 25%;
+    position: absolute;
     font-size: 2.5rem;
+  }
+  .contener1 {
+    width: 95%;
   }
   .contener {
     display: flex;
@@ -772,10 +792,15 @@ a {
     background-position: center top;
     background-size: cover;
   }
+  .contener1 {
+    width: 95%;
+  }
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 45%;
+    top: 22%;
+    left: 25%;
+    position: absolute;
     font-size: 2.5rem;
   }
   .contener {
@@ -783,7 +808,7 @@ a {
     flex-direction: column;
   }
   .box1 {
-    width: 70%;
+    width: 90%;
   }
   .item {
     width: 80%;
@@ -811,8 +836,9 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 45%;
-    padding-left: 15%;
+    top: 22%;
+    left: 25%;
+    position: absolute;
     font-size: 2.5rem;
   }
   .contener {
@@ -820,11 +846,14 @@ a {
     flex-direction: column;
   }
   .box1 {
-    width: 70%;
+    width: 95%;
   }
   .item {
     width: 80%;
     object-fit: cover;
+  }
+  .item > img {
+    width: 100%;
   }
   form > input[type="text"] {
     width: 50%;
@@ -836,13 +865,13 @@ a {
     height: 45px;
     border: transparent;
   }
- .contener1 {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  margin-bottom: 5%;
-  /* border: 1px solid black; */
-  width: 100%;
-  padding: 5px;
-}
+  .contener1 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 5%;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 5px;
+  }
 }
