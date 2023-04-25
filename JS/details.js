@@ -459,7 +459,7 @@ function gestion2(base){
                <div class="troisTitle">
                   <p>${base.structure_ecole[4].niveau}</p>
                   <p class="trois">${base.structure_ecole[4].nombres}</p>
-               </div>
+               </div> 
                <div class="troisTitle">
                   <p>${base.structure_ecole[5].niveau}</p>
                   <p class="trois">${base.structure_ecole[5].nombres}</p>
@@ -467,6 +467,12 @@ function gestion2(base){
             </div>
       `
       
+      
+
+   
+
+
+
       let resCm2=`
       <div class="bac">
              <h3>CM2</h3>
