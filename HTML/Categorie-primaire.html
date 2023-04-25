@@ -10,27 +10,60 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="../IMAGES/Logo.png" alt="">
-
-            <ul>
-                <li>Accueil</li>
-                <li class="menu-deroulant">Catégories
-                    <ul class="sous-menu">
-                        <li><a href="HTML/Categorie-primaire.html"> Primaire</a></li>
-                        <li><a href="HTML/Categorie-premierCycle.html"> College</a></li>
-                        <li><a href="HTML/Categorie-SecondCycle.html"> Lycée</a></li>
-                    </ul>
-                </li>
-                <li><a href="HTML/Apropos.html"> A propos</a></li>
-                <li><a href="HTML/Contact.html"> Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-      <div class="main_image">
+    
+    <section class="xon">
+        <!-- header start -->
+        <header class="header">
+           <div class="container">
+              <div class="header-main">
+                 <div class="logo">
+                    <!-- <a href="#">Logo</a> -->
+                    <img src="../IMAGES/Logo.png" alt="">
+                 </div>
+                 <div class="open-nav-menu">
+                  <i class="fa-solid fa-bars"></i>
+                 </div>
+                 <div class="menu-overlay">
+                 </div>
+                 <!-- navigation menu start -->
+                 <nav class="nav-menu">
+                   <div class="close-nav-menu">
+                     <i class="fa-solid fa-xmark"></i>
+                   </div>
+                   <ul class="menu">
+                    <li class="menu-item">
+                      <a href="../index.html">Accueil</a>
+                     </li>
+                     <li class="menu-item">
+                       <a href="../HTML/Apropos.html">A propos</a>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu">Catégories</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="../HTML/Categorie-primaire.html">Primaire</a></li>
+                            <li class="menu-item"><a href="../HTML/Categorie-premierCycle.html">Collège</a></li>
+                            <li class="menu-item"><a href="../HTML/Categorie-SecondCycle.html">Lycée</a></li>
+                        </ul>
+                     </li>
+                     
+                     <li class="menu-item">
+                        <a href="../HTML/Contact.html">Contact</a>
+                     </li>
+                  </ul>
+                 </nav>
+                 <!-- navigation menu end -->
+              </div>
+           </div>
+        </header>
+        <!-- header end -->
+      
+       <!-- home section start -->
+       <section class="home-section">
         <h1></h1>
-      </div>
+       </section>
+       <!-- home section end -->
+     
+     </section>
   
       <div class="searchbar">
             <div class="searchbar-wrapper">
@@ -97,6 +130,6 @@
          
     </footer>
     <script src="/JS/CategoriePrimaire.js"></script>
-    <!-- <script src="JS/script.js"></script> -->
+    <script src="../JS/script.js"></script>
 </body>
 </html>

@@ -4,34 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categorie Second Cycle</title>
-    <link rel="stylesheet" href="../CSS/Categorie-SecondCycle.css">
+    <title>Categorie Premier Cycle</title>
+    <link rel="stylesheet" href="../CSS/college.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Montserrat|Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="../IMAGES/Logo.png" alt="">
-
-            <ul>
-                <li>Accueil</li>
-                <li class="menu-deroulant">Catégories
-                    <ul class="sous-menu">
-                        <li><a href="HTML/Categorie-primaire.html"> Primaire</a></li>
-                        <li><a href="HTML/Categorie-premierCycle.html"> College</a></li>
-                        <li><a href="HTML/Categorie-SecondCycle.html"> Lycée</a></li>
-                    </ul>
-                </li>
-                <li><a href="HTML/Apropos.html"> A propos</a></li>
-                <li><a href="HTML/Contact.html"> Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-      <div class="main_image">
+   
+    <section class="xon">
+        <!-- header start -->
+        <header class="header">
+           <div class="container">
+              <div class="header-main">
+                 <div class="logo">
+                    <!-- <a href="#">Logo</a> -->
+                    <img src="../IMAGES/Logo.png" alt="">
+                 </div>
+                 <div class="open-nav-menu">
+                  <i class="fa-solid fa-bars"></i>
+                 </div>
+                 <div class="menu-overlay">
+                 </div>
+                 <!-- navigation menu start -->
+                 <nav class="nav-menu">
+                   <div class="close-nav-menu">
+                     <i class="fa-solid fa-xmark"></i>
+                   </div>
+                   <ul class="menu">
+                    <li class="menu-item">
+                      <a href="../index.html">Accueil</a>
+                     </li>
+                     <li class="menu-item">
+                       <a href="../HTML/Apropos.html">A propos</a>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu">Catégories</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="../HTML/Categorie-primaire.html">Primaire</a></li>
+                            <li class="menu-item"><a href="../HTML/Categorie-premierCycle.html">Collège</a></li>
+                            <li class="menu-item"><a href="../HTML/Categorie-SecondCycle.html">Lycée</a></li>
+                        </ul>
+                     </li>
+                     
+                     <li class="menu-item">
+                        <a href="../HTML/Contact.html">Contact</a>
+                     </li>
+                  </ul>
+                 </nav>
+                 <!-- navigation menu end -->
+              </div>
+           </div>
+        </header>
+        <!-- header end -->
+      
+       <!-- home section start -->
+       <section class="home-section">
         <h1></h1>
-      </div>
+       </section>
+       <!-- home section end -->
+     
+     </section>
   
       <div class="searchbar">
             <div class="searchbar-wrapper">
@@ -55,7 +88,7 @@
            </div>
       </div>
       <div class="contenaire-school">
-        <h2>NOTRE SELECTION  DE LYCEE</h2>
+        <h2>NOTRE SELECTION  DE COLLEGE</h2>
 
         <div class="school-content">
 
@@ -69,8 +102,10 @@
               <!-- <button class="blocks">&raquo;</button> -->
             </div>
           </div>
+         
           
       </div>
+
       <footer>
         <div class="nous_suivre">
             <h1>Nous suivre</h1>
@@ -96,7 +131,9 @@
          </div>
          
     </footer>
-     <script src="../JS/Categorie-SecondCycle.js"></script>
+  
+    
+    <script src="/JS/CategoriePremierCycle.js"></script>
     <!-- <script src="JS/script.js"></script> -->
 </body>
 </html>

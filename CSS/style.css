@@ -10,11 +10,6 @@ a
     list-style: none;
     text-decoration: none;
 }
-:root{
-	--colorPrimaire : #545AE8;
-	--border: #1B8AF1;
-	
-}
 body
 {
     background-color: #EDF2F8;
@@ -112,24 +107,27 @@ header img
     background-size: cover;
     width: 100%;
     height: 732px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
 }
 .main_image h1
 {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-top: 220px;
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     color: white;
     font-weight: bolder;
     text-transform: uppercase;
+    width: 70%;
+    height: auto;
 }
 .main_image p
 {
     text-align: center;
     padding-top: 20px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: white;
 
 }
@@ -148,8 +146,8 @@ h2
 }
 .bulle img
 {
-    width: 400px;
-    height: 400px;
+    width: 45%;
+    height: 45%;
     border-radius: 23px;
     margin-left: 120px;
     position: relative;
@@ -157,17 +155,17 @@ h2
 .bulle_info
 {
     width: 55%;
-    height: 50%;
+    height: 40%;
     background-color: white;
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 20px;
     position: absolute;
     left: 26%;
     bottom: -10%;
 }
 .bulle_info p
 {
-    font-size: 2rem;
+    font-size: 100%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
@@ -235,7 +233,7 @@ border: 1px solid black;
 {
     padding-bottom: 50px;
     width: 30%;
-    height: 150px;  
+    height: 20%;  
     font-size: 2.3rem; 
     text-align: center;
     padding-left: 5px;
@@ -250,7 +248,7 @@ border: 1px solid black;
 .second
 {
     width: 45%;
-    height: 200px;
+    height: 22%;
     padding-left: 20px;
     padding-top: 5%;
     font-size: 2.3rem;
@@ -292,10 +290,10 @@ border: 1px solid black;
     margin: 0 auto;
     display: flex;
 }
-/* footer
+footer
 {
     /* margin-top: 30px; */
-    /* padding-top: 30px;
+    padding-top: 30px;
     padding-bottom: 30px;
     color: white;
     display: flex;
@@ -303,9 +301,8 @@ border: 1px solid black;
     align-items: center;
     gap: 80px;
     flex-wrap: wrap;
-    background-color: #545AE8; 
-}/*
-/*
+    background-color: #545AE8;
+}
 footer i
 {
     color: black;
@@ -328,88 +325,133 @@ footer p
 {
     padding-bottom: 5px;
     padding-left: 30px;
-} */
+}
 
-footer{
-	width: 100%;
-	height: auto;
-	color: white;
-    background-color: var(--border);
-	margin-top: 10%;
-  }
-  .log h2{
-	text-align: center;
-	margin-bottom: 10px;
-	font-family: 'Raleway';
-  }
- 	.log span{
-		width: 50px;
-		height: 40px;	
-		margin-left:10px ;
-	} 
-	.log span .fa-brands{
-		font-size: 2rem;
-	}
-  .primaire{
-	width: 100%;
-	height: 40px;
-	display: flex;
-	background-color:#EDF2F8;
-	align-items: center;
-	justify-content: space-around;
-	margin-bottom: 2rem;
-	font-family: 'Raleway';
-  }
-  
-    .seconde{
-	
-	display: flex;
-    justify-content: center;
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-  }
-  .seconde div{
-	font-family: 'Raleway';
-	  margin: 0 auto;
-	  margin-top: 30px;
-  }
-  .logo i{
-	color: white;
-  }
-  
-  
-  .categories p{
-	line-height: 28px;
-	font-family: 'Raleway';
-  }
- 
-  
-  .text{
-	font-family: 'Raleway';
-	font-weight: bold;
-	font-size: 30px;
-   
-  }
-  
-  
-  
-  
-  /**************  Media Queries  **************************/
-  
-  
-  @media(max-width:992px){
-	
-  
-	.seconde{
-	  flex-direction: column;
-	}
-	.container{
-		flex-direction: column;
-	}
-	
- 
-  
-  }
+@media screen and (max-width : 900px){
+    .main_image{
+        width: 100%;
+        height: 400px;
+    }
+    .main_image h1{
+        font-size: 2rem ;
+    }
+    .main_image p{
+        font-size: 1.5rem;
+    }
+    .bulle
+    {
+        margin-left: 5%;
+    }
+    .bulle_info p{
+        font-size: 1.5rem;
+    }
+    h2{
+        margin-bottom: 100px;
+    }
+    *{
+        font-size: 100%;
+    }
+    .first , .second, .headInfo{
+    font-size: 100%;
+    }
+    .first{
+        width: 30%;
+        height: 50px;
 
+    }
+    .second{
+        width: 45%;
+        height: 80px;
+        padding-top: 2%;
+        
+    }
+    .bulle_info{
+        height: 57%;
+    }
+    .bulle_info p{
+        padding-top: 3.5%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
 
+    }
+    .info-1,.info-2,.info-3{
+        width: 200px;
+        padding-bottom: 2%;
+    }
+    .info-1 p,.info-2 p,.info-3 p{
+        font-size: 100%;
+    }
+    .bulle img{
+        margin-left: 3%;
+    }
+    footer{
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+    }
+    footer i{
+        padding-bottom: 5%;
+    }
+    .nous_suivre{
+        padding-bottom: 0;
+    }
+    .contact, .categories{
+        margin-top: 5%;
+    }
+    
+}
+
+@media screen and (max-width : 600px) {
+    .main_image{
+        height:200px;
+        padding-top: 1%;
+    }
+    .main_image h1 , .main_image p{
+        font-size: 100%;
+    }
+    .bulle img{
+        width: 60%;
+    }
+    .bulle_info{
+        width: 70%;
+    }
+    .bulle_info p{
+        font-size: 80%;
+        padding-left: 5px;
+    }
+    .bonus  img{
+        width: 70%;
+        height: 350px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    .headInfo{
+        font-size: 1.2rem;
+    }
+    .info{
+        margin-top: 120px;
+    }
+    .info-1,.info-2,.info-3{
+        width: 50%;
+        height: 100%;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .first{
+        width: 50%;
+        font-size: 15px;
+    }
+    .second{
+        width: 60%;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .end img{
+        width: 100%;
+        height: 150px;
+        margin-right: 50%;
+    }
+
+}
