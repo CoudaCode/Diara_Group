@@ -50,6 +50,7 @@
                                 }
                          },
                          {
+    
                             "lieu":"Yopougon",
                             "id": "L2",
                             "nom": " Lycée Moderne de Jeunes Filles de Yopougon",
@@ -159,8 +160,8 @@
                                     
                                 },
                                 "structure_ecole":[
-                                        {"niveau":" 2nde A","nombres":"10"},
-                                        {"niveau":"  2nde C","nombres":"10"},
+                                        {"niveau":"2nde A","nombres":"10"},
+                                        {"niveau":"2nde C","nombres":"10"},
                                         {"niveau":"1èreA","nombres":"7"},
                                         {"niveau":"1èreC","nombres":"8"},
                                         {"niveau":"1èreD","nombres":"6"},
