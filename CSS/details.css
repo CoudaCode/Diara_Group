@@ -773,8 +773,24 @@ footer{
     width: 90%;
 	}
 
-	/* .PremierCycle {
+   .PremierCycle {
     width: auto;
-    height: auto;
-	} */
+	} 
  }
+ @media (min-width: 425px) and (max-width: 768px) { 
+
+	.local-info { width: 80%; margin-top: 10px; height: 100%;} 
+	.local { width: 100%; height: auto; display: flex; flex-direction: column;} 
+	.result-sect { width: 100%;height: auto;  margin-top: 5%;} 
+	.result-info { width: 80%; height: auto;} 
+	.local-img { width: 80%; height: 100%;}
+   .PremierCycle {
+    width: auto;
+	} 
+	.commune p{
+		font-size: 0.8rem;
+	}
+	.local-sect {
+		width: 100%;
+		height: auto;}
+}
