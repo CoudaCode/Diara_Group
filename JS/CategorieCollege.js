@@ -59,7 +59,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
        if(this.innerWidth > mediaSize){
          resizeFix();
        }
-    })})
+})})
 
 
 //animation texte//
@@ -75,7 +75,6 @@ const texteComplet = "OFFREZ UN CADRE ACADEMIQUE IDEAL  A VOS ENFANTS";
 				clearInterval(intervalId);
 			}
 		}
-
 		const intervalId = setInterval(afficherLettre, 100);
 
 
