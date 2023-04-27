@@ -60,17 +60,17 @@ window.addEventListener('DOMContentLoaded', ()=>{
       if(this.innerWidth > mediaSize){
         resizeFix();
       }
-   })})
+})})
 
 //Recuperation de Id 
    
    
    
-   const sourceId=window.location.search.split("?").join("");
-   console.log('sourceId: '+sourceId);
-   
+const sourceId=window.location.search.split("?").join("");
+console.log('sourceId: '+sourceId);
 
-   let dataLycee = [];
+
+let dataLycee = [];
 let dataColleges = [];
 let dataPrimaire = [];
 let data=[]

@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceuil</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Montserrat|Roboto">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Montserrat|Roboto|Poppins">
 </head>
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <img src="IMAGES/Logo.png" alt="">
 
@@ -27,14 +29,67 @@
                 <li><a href="HTML/Contact.html"> Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
+    <section class="xon">
+        <!-- header start -->
+        <header class="header">
+           <div class="container">
+              <div class="header-main">
+                 <div class="logo">
+                    <a href="#"><img src="../IMAGES/Logo.png" alt=""></a>
+                 </div>
+                 <div class="open-nav-menu">
+                    <i class="fa-solid fa-bars"></i>
+                 </div>
+                 <div class="menu-overlay">
+                 </div>
+                 <!-- navigation menu start -->
+                 <nav class="nav-menu">
+                   <div class="close-nav-menu">
+                    <i class="fa-solid fa-xmark"></i>
+                   </div>
+                   <ul class="menu">
+                    <li class="menu-item">
+                      <a href="index.html">Accueil</a>
+                     </li>
+                     <li class="menu-item">
+                       <a href="HTML/Apropos.html">A propos</a>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                        <a href="#" data-toggle="sub-menu">Catégories</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="HTML/Categorie-primaire.html">Primaire</a></li>
+                            <li class="menu-item"><a href="HTML/CategorieCollege.html">Collège</a></li>
+                            <li class="menu-item"><a href="HTML/CategorieLycee.html">Lycée</a></li>
+                        </ul>
+                     </li>
+                     
+                     <li class="menu-item">
+                        <a href="HTML/Contact.html">Contact</a>
+                     </li>
+                  </ul>
+                 </nav>
+                 <!-- navigation menu end -->
+              </div>
+           </div>
+        </header>
+        <!-- header end -->
+      
+       <!-- home section start -->
+       <section class="home-section">
+           <h1></h1>
+       </section>
+       <!-- home section end -->
+     
+     </section>
 
-    <div class="main_image">
+
+    <!-- <div class="main_image">
         <h1></h1>
         <p>Des établissements a votre portées</p>
-    </div>
+    </div> -->
 
-    <h2>bienvenue sur searchschool</h2>
+    <!-- <h2>bienvenue sur searchschool</h2> -->
 
     <div class="bulle">
         <img src="IMAGES/Image.jpg" alt="">
@@ -78,7 +133,7 @@
 
 
 
-
+<!-- 
     <div class="footerLogo">
         <img src="IMAGES/Logo.png" alt="">
     </div>
@@ -105,7 +160,41 @@
             <p>Email :DevSchool@gmail.com</p>
             <p>Rue des  caraibe , Abidjan, Cote D'ivoire</p>
          </div>
-    </footer>
+    </footer> -->
+
+
+    <footer>
+        <div class="primaire">
+           <img src="../IMAGES/Logo.png" alt="">
+        </div>
+     
+        <div class="seconde">
+                        
+                <div class="log">
+                    <h2>Nous Suivre</h2>
+                    <span><a href=""><i class="fa-brands fa-facebook fa-beat-fade fa-lg"></i></a></span>
+                    <span><a href=""><i class="fa-brands fa-linkedin fa-beat fa-lg"></i></a></span>
+                    <span><a href=""><i class="fa-brands fa-square-twitter fa-shake fa-lg"></i></a></span>
+                </div>
+     
+                <div class="categories">
+                    <p class="text">Categories</p>
+     
+                    <h4>Primaire</h4>
+                    <h4>Collège</h4>
+                    <h4>Lycée</h4>
+                    
+                </div>
+     
+                <div class="information">
+                  <h2 class="text"> Nous Rejoindre</h2>
+                  <h4>cel :+225 07-89-65-32-41-25 </h4>
+                  <h4>Email : DevSchool@gmail.com</h4>
+                  <h4>Rue des caraibes, Abidjan, Cote D'ivoire</h4>
+                </div>
+        </div>  
+     
+      </footer> 
     <script src="JS/script.js"></script>
 </body>
 </html>
