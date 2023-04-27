@@ -1,12 +1,18 @@
-
+/* MAIN_IMAGE */
+.home-section > h1 {
+  text-align: center;
+  color: #fff;
+ position: absolute;
+}
 /* contener */
 
 .contener {
   margin-top: 5%;
   display: flex;
   flex-wrap: wrap;
-
   width: 100%;
+  left: 50%;
+  opacity: 0;
   justify-content: center;
   align-items: center;
 }
@@ -45,6 +51,26 @@
 .item1 {
   padding-bottom: 25%;
 }
+/* bilan */
+
+.bilan {
+  margin-top: 5%;
+  height: 20vh;
+  width: 100%;
+  background-color: #485874;
+  display: flex;
+  justify-content: center;
+  gap: 18%;
+  padding-top: 3%;
+  
+}
+.bilan>.bitan-item{
+  color: white;
+}
+.bilan>.bitan-item>p{
+  font-size: 40px;
+}
+
 /*  notre equipe*/
 h2 {
   text-align: center;
@@ -114,12 +140,12 @@ p {
   box-shadow: 0 16px 24px -12px rgba(black, 0.15);
 }
 
-img {
+/* img {
   text-align: center;
   margin-bottom: 1rem;
   border-radius: 23px 23px 5px 5px;
   box-shadow: 0 16px 24px -12px rgba(black, 0.15);
-}
+} */
 
 h3 {
   text-align: center;
@@ -128,8 +154,10 @@ h3 {
 }
 .contener2 {
   color: white;
+  height: 100px;
 }
 .contener2 > img {
+ 
   height: 15vh;
   object-fit: cover;
 }
@@ -147,6 +175,81 @@ form > input[type="submit"] {
 form {
   text-align: center;
   transform: translateY(-170%);
+}
+
+
+/* investissseur */
+.investi{
+  height: 20vh;
+  width: 100%;
+  background-color: #485874;
+  display: flex;
+  justify-content: center;
+  gap: 18%;
+  padding-top: 3%;
+  
+}
+.investi>.investi-item{
+  color: white;
+}
+.investi>.investi-item>p{
+  font-size: 40px;
+}
+
+
+/* FOOTER */
+.footerLogo
+{
+    margin-top: 50px;
+
+}
+.footerLogo img
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+footer
+{
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    background-color: #545AE8;
+}
+footer i
+{
+    color: black;
+    padding-right: 20px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+footer h1
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+footer p
+{
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
+.nous_suivre h1
+{
+    padding-bottom: 5px;
+    padding-left: 30px;
 }
 @media only screen and (max-width: 600px) {
   body {
@@ -498,6 +601,9 @@ a {
   opacity: 0;
   transition: all 0.3s ease;
 }
+.card > p {
+  text-align: center;
+}
 
 /* responsive */
 @media (min-width: 992px) {
@@ -665,6 +771,12 @@ a {
     display: flex;
   }
 }
+
+@media (max-width: 1440px) {
+  .contener1 {
+    width: 50%;
+  }
+}
 @media (width: 1024px) {
   .home-section {
     width: 100%;
@@ -679,7 +791,8 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 25%;
+    top: 30%;
+    left: 35%;
     font-size: 2.5rem;
   }
   .box1 {
@@ -715,7 +828,8 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 35%;
+    top: 30%;
+    left: 35%;
     font-size: 2.5rem;
   }
   .box1 {
@@ -748,8 +862,13 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 45%;
+    top: 22%;
+    left: 25%;
+    position: absolute;
     font-size: 2.5rem;
+  }
+  .contener1 {
+    width: 95%;
   }
   .contener {
     display: flex;
@@ -781,10 +900,15 @@ a {
     background-position: center top;
     background-size: cover;
   }
+  .contener1 {
+    width: 95%;
+  }
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 45%;
+    top: 22%;
+    left: 25%;
+    position: absolute;
     font-size: 2.5rem;
   }
   .contener {
@@ -792,7 +916,7 @@ a {
     flex-direction: column;
   }
   .box1 {
-    width: 70%;
+    width: 90%;
   }
   .item {
     width: 80%;
@@ -820,8 +944,9 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    padding-top: 45%;
-    padding-left: 15%;
+    top: 22%;
+    left: 25%;
+    position: absolute;
     font-size: 2.5rem;
   }
   .contener {
@@ -829,11 +954,14 @@ a {
     flex-direction: column;
   }
   .box1 {
-    width: 70%;
+    width: 95%;
   }
   .item {
     width: 80%;
     object-fit: cover;
+  }
+  .item > img {
+    width: 100%;
   }
   form > input[type="text"] {
     width: 50%;
@@ -845,13 +973,13 @@ a {
     height: 45px;
     border: transparent;
   }
- .contener1 {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  margin-bottom: 5%;
-  /* border: 1px solid black; */
-  width: 100%;
-  padding: 5px;
-}
+  .contener1 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 5%;
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 5px;
+  }
 }

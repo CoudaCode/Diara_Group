@@ -59,23 +59,23 @@ window.addEventListener('DOMContentLoaded', ()=>{
        if(this.innerWidth > mediaSize){
          resizeFix();
        }
-    })})
+})})
 
 //animation texte//
-const texteComplet = "TOUT COMMENCE PAR UNE BONNE ECOLE PRIMAIRE";
+const textCmplet = "TOUT COMMENCE PAR UNE BONNE ECOLE PRIMAIRE";
 		let index = 0;
 
 		function afficherLettre() {
 			const texte = document.querySelector('.home-section>h1');
-			texte.innerHTML += texteComplet.charAt(index);
+			texte.innerHTML += textCmplet.charAt(index);
 			index++;
 
-			if (index > texteComplet.length - 1) {
-				clearInterval(intervalId);
+			if (index > textCmplet.length - 1) {
+				clearInterval(interValId);
 			}
 		}
 
-		const intervalId = setInterval(afficherLettre, 100);
+		const interValId = setInterval(afficherLettre, 100);
 
 
 

@@ -28,6 +28,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../CSS/Apropos.css" />
   </head>
   <body>
@@ -44,66 +46,62 @@
       </nav>
     </header> -->
 
-   
-      <!-- header start -->
-      <header class="header">
-        <div class="container">
-          <div class="header-main">
-            <div class="logo">
-              <a href="#"><img src="../IMAGES/Logo.png" alt="" /></a>
-            </div>
-            <div class="open-nav-menu">
-              <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="menu-overlay"></div>
-            <!-- navigation menu start -->
-            <nav class="nav-menu">
-              <div class="close-nav-menu">
-                <i class="fa-solid fa-xmark fa-bounce"></i>
-              </div>
-              <ul class="menu">
-                <li class="menu-item">
-                  <a href="../index.html">Accueil</a>
-                </li>
-                <li class="menu-item">
-                  <a href="../HTML/Apropos.html">A propos</a>
-                </li>
-                <li class="menu-item menu-item-has-children">
-                  <a href="#" data-toggle="sub-menu">Catégories</a>
-                  <ul class="sub-menu">
-                    <li class="menu-item">
-                      <a href="../HTML/Categorie-primaire.html">Primaire</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="../HTML/Categorie-premierCycle.html">Collège</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="../HTML/Categorie-SecondCycle.html">Lycée</a>
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="menu-item">
-                  <a href="../HTML/Contact.html">Contact</a>
-                </li>
-              </ul>
-            </nav>
-            <!-- navigation menu end -->
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="header-main">
+          <div class="logo">
+            <a href="#"><img src="../IMAGES/Logo.png" alt="" /></a>
           </div>
+          <div class="open-nav-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="menu-overlay"></div>
+          <!-- navigation menu start -->
+          <nav class="nav-menu">
+            <div class="close-nav-menu">
+              <i class="fa-solid fa-xmark fa-bounce"></i>
+            </div>
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="../index.html">Accueil</a>
+              </li>
+              <li class="menu-item">
+                <a href="../HTML/Apropos.html">A propos</a>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu">Catégories</a>
+                <ul class="sub-menu">
+                  <li class="menu-item">
+                    <a href="../HTML/Categorie-primaire.html">Primaire</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="../HTML/CategorieCollege.html">Collège</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="../HTML/CategorieLycee.html">Lycée</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu-item">
+                <a href="../HTML/Contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- navigation menu end -->
         </div>
-      </header>
-      <!-- header end -->
+      </div>
+    </header>
+    <!-- header end -->
 
-      <!-- home section start -->
-      <section class="home-section">
-        <h1>APROPOS</h1>
-      </section>
-      <!-- home section end -->
-   
+    <!-- home section start -->
+    <section class="home-section">
+      <h1>APROPOS</h1>
+    </section>
+    <!-- home section end -->
 
-    
-
-    <div class="contener">
+    <div class="contener" data-aos="fade-right" data-aos-delay="350">
       <div class="box1">
         <h1>QU'EST CE QUE SEARCHSCHOOL?</h1>
         <p>
@@ -116,7 +114,7 @@
       </div>
       <div class="box2"><img src="../IMAGES/Logo.png" alt="" /></div>
     </div>
-    <div class="contener">
+    <div class="contener" data-aos="fade-left">
       <div class="box2 item">
         <img src="../IMAGES/pexels-photo-3184338.jpeg" alt="" />
       </div>
@@ -133,6 +131,21 @@
         <p>NaN digital academy</p>
       </div>
     </div>
+    <div class="bilan">
+      <div class="bitan-item">
+        <h3>Etablissement</h3>
+        <p>45</p>
+      </div>
+      <div class="bitan-item">
+        <h3>Fonde</h3>
+        <p>2023</p>
+      </div>
+      <div class="bitan-item">
+        <h3>Culture</h3>
+        <p>valeur</p>
+      </div>
+    </div>
+
     <h2>Notre Equipe</h2>
     <div class="contener1">
       <article class="card">
@@ -182,6 +195,50 @@
       </form>
     </div>
 
+    <div class="investi">
+      <div class="investi-item">
+        <h3>Etablissement</h3>
+        <p>45</p>
+      </div>
+      <div class="investi-item">
+        <h3>Fonde</h3>
+        <p>2023</p>
+      </div>
+      <div class="investi-item">
+        <h3>Culture</h3>
+        <p>valeur</p>
+      </div>
+    </div>
+
+
+    <div class="footerLogo">
+      <img src="../IMAGES/Logo.png" alt="">
+  </div>
+  <footer>
+      <div class="nous_suivre">
+          <h1>Nous suivre</h1>
+          
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+       </div>
+
+      
+       <div class="categories">
+          <h1>Catégories</h1>
+          <p>Primaire</p>
+          <p>College</p>
+          <p>Lycee</p>
+       </div>
+
+       <div class="contact">
+          <h1>Nous joindre</h1>
+          <p>Cel : +225 45-59-68-32-12</p>
+          <p>Email :DevSchool@gmail.com</p>
+          <p>Rue des  caraibe , Abidjan, Cote D'ivoire</p>
+       </div>
+  </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.6.3.min.js"
       integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
@@ -195,5 +252,8 @@
     ></script>
 
     <script src="../JS/Apropos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
