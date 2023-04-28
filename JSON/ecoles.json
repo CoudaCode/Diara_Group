@@ -947,7 +947,7 @@
                                 "picture":{
                                     "image1":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2885.JPG?size=11",
                                     "image2":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2901.JPG?size=11",
-                                    "image3":""
+                                    "image3":"http://www.lechandelierdorlieusaint.sch-ci.org/files2/images/DSCF2901.JPG?size=11"
                                 },
                                 "Date_ecole":{
                                     "Date_creation" : "2000",
@@ -988,9 +988,9 @@
                                 "email": "ecolechandelier@edu.ci",
                                 "Regime":"internat",
                                 "picture":{
-                                    "image1":"",
-                                    "image2":"",
-                                    "image3":""
+                                    "image1":"https://th.bing.com/th/id/OIP.tmO8TcGZ7e-adLzp0TEBNAHaE7?pid=ImgDet&rs=1",
+                                    "image2":"https://th.bing.com/th/id/R.1231b63f155f8e3ff367679c1fc121f0?rik=iFdUVd2d8YNxlA&pid=ImgRaw&r=0",
+                                    "image3":"https://img4.schoolandcollegelistings.com/342/704/1134425373427049.jpg"
                                 },
                                 "Date_ecole":{
                                     "Date_creation" : "2000",
@@ -1032,9 +1032,9 @@
                                 "email": "ecolechandelier@edu.ci",
                                 "Regime":"internat",
                                 "picture":{
-                                    "image1":"",
-                                    "image2":"",
-                                    "image3":""
+                                    "image1":"https://th.bing.com/th/id/R.949a3af5ff5ed7b7caea0c6e51c571cf?rik=9Zkpiue8bxW7FQ&riu=http%3a%2f%2fclaudinelepage.eu%2fS-FDM%2fimages%2f0506a029.jpg&ehk=wNQB21HQdqLDG%2b9OWA9l%2fXg7aR9PF5JEaMxyElqQQr4%3d&risl=&pid=ImgRaw&r=0",
+                                    "image2":"https://th.bing.com/th/id/OIP.1X3VoYebC0oQCYyVrEzTXwHaDt?pid=ImgDet&rs=1",
+                                    "image3":"https://th.bing.com/th/id/R.c1dcc93f27650190e085d17d586259b7?rik=2zx40svt6eqM%2fw&riu=http%3a%2f%2fwww.emm.lu%2fwp-content%2fuploads%2f2015%2f02%2fclasse-primaire-montessori.jpg&ehk=1Nsua35HBpHGaSYB4ki7JzNPKtm3UO54LBqMjEep0sg%3d&risl=&pid=ImgRaw&r=0"
                                 },
                                 "Date_ecole":{
                                     "Date_creation" : "2000",
@@ -1074,9 +1074,9 @@
                                 "email": "ecoleacajour@edu.ci",
                                 "Regime":"externe",
                                 "picture":{
-                                    "image1":"",
-                                    "image2":"",
-                                    "image3":""
+                                    "image1":"https://www.aiglon-athletisme.com/media/uploaded/sites/837/partenaire/5a0a49eb8652f_logoacajou2.jpg",
+                                    "image2":"https://th.bing.com/th/id/R.5df4338c2bb14ad9f98c281782b00916?rik=HqME796QsaoAMA&riu=http%3a%2f%2fwww.matelem.fr%2fsites%2fdefault%2ffiles%2fclasse-ecole-monde-burundi.jpg&ehk=ixjOFBmnSi0yK5iPajzEKq6bgv1cGDKWaNxsHQFeWJ4%3d&risl=&pid=ImgRaw&r=0",
+                                    "image3":"https://www.aiglon-athletisme.com/media/uploaded/sites/837/partenaire/5a0a49eb8652f_logoacajou2.jpg"
                                 },
                                 "Date_ecole":{
                                     "Date_creation" : "1990",
@@ -1085,7 +1085,7 @@
                                 "tranche_scolarité":{
                                 
                                         "scolarité_min":"30 000",
-                                        "scolarité_max":"50 000",
+                                        "scolarité_max":"52 000",
                                         "Droit_cm2":"1500"
                                     
                                 },
