@@ -148,12 +148,12 @@ a{
     font-size: 1.3rem;
     color: white;
 }
-#contacts i
+#contacts .infoContact i
 {
-    font-size: 5rem;
-    padding-top: 10%;
+    font-size: 3rem;
+    margin-top: 5%;
     margin-left: 35%;
-    padding-bottom: 15px;
+    margin-bottom: 1%;
 }
 .contactGroup
 {
@@ -213,12 +213,29 @@ h2
     cursor: pointer;
 }
 
-@media screen and (max-width : 600px) {
-    .contacts{
-        width: 100%;
+@media screen and (max-width : 900px) {
+    #contacts {
+        
+        height: auto;
     }
     .contacts i{
-        font-size: 1rem;
+        font-size: 5rem;
+        padding-top: 10%;
+        margin-left: 35%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+    }
+    .telephone i{
+        margin-left: 0;
+    }
+   
+    .infoContact{
+        display: flex;
+        gap: 10%;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
     }
     .infoContact p{
         font-size: 100%;
@@ -227,12 +244,10 @@ h2
         font-size: 100%;
     }
     .border{
-        left: 27%;
-        bottom: -1%;
+        display: none;
     }
     .border2{
-        right: 32%;
-        bottom: -1%;
+        display: none;
     }
     .formContact{
 
@@ -242,6 +257,80 @@ h2
     }
     .telephone{
         padding-left: 2%;
+    }
+    
+}
+@media screen and (max-width : 500px) {
+    #contacts i{
+        font-size: 3rem;
+    }
+    #contacts .infoContact h2{
+        font-size: 1rem;
+    }
+    #contacts .infoContact p{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width : 800px) {
+    #contacts .infoContact h2{
+        font-size: 1.5rem;
+    }
+    #contacts .infoContact p{
+        font-size: 1.2rem;
+    }
+    
+}
+@media screen and (max-width : 1200px) {
+    #contacts {
+        
+        height: auto;
+    }
+    .contacts i{
+        font-size: 5rem;
+        padding-top: 10%;
+        margin-left: 35%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+    }
+    .telephone i{
+        margin-left: 0;
+    }
+   
+    .infoContact{
+        display: flex;
+        gap: 10%;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .infoContact p{
+        font-size: 100%;
+    }
+    .infoContact h2{
+        font-size: 100%;
+    }
+    .border{
+        display: none;
+    }
+    .border2{
+        display: none;
+    }
+    .formContact{
+
+        font-size: 100%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .telephone{
+        padding-left: 2%;
+    }
+    #contacts .infoContact h2{
+        font-size: 2rem;
+    }
+    #contacts .infoContact p{
+        font-size: 1.4rem;
     }
     
 }
@@ -276,6 +365,7 @@ h2
 	  width: unset;
 	  z-index: 1000;
 	}
+
 	
 	.contenu {
 	  width: auto;
