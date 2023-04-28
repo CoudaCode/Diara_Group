@@ -337,7 +337,7 @@ a{
 /* reponsible session */
 
 @media (max-width: 743px) {
-  .main_image h1{
+  .home-section h1{
     font-size: 2.7rem;
   }
 
@@ -353,7 +353,29 @@ a{
   width: 30px;
   line-height: 40px;
 }
+
+.row-card-school{
+    height: auto;
 }
+}
+
+@media (max-width: 321px){
+	.row-card-school{
+		height: auto;
+		width: 300px;
+	}
+
+	.searchbar-input {
+		font-size: 0.5rem;
+	  }
+
+	  .home-section h1{
+		font-size: 1.8rem;
+	  }
+}
+
+
+
 
 
 
@@ -425,6 +447,21 @@ footer p
 		flex-direction: column;
 	}
 	
+	footer{
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+    }
+    footer i{
+        padding-bottom: 5%;
+    }
+    .nous_suivre{
+        padding-bottom: 0;
+    }
+    .contact, .categories{
+        margin-top: 5%;
+    }
  
   
   }
