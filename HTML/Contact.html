@@ -11,18 +11,50 @@
 
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="../IMAGES/Logo.png" alt="">
-
-            <ul>
-                <li><a href="../index.html"> Accueil</a></li>
-                <li>Catégories</li>
-                <li><a href="../HTML/Apropos.html"> A propos</a></li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
+    <section class="xon">
+     <!-- header start -->
+     <header class="header">
+        <div class="container">
+           <div class="header-main">
+              <div class="logo">
+                 <a href="#"><img src="../IMAGES/Logo.png" alt=""></a>
+              </div>
+              <div class="open-nav-menu">
+                 <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="menu-overlay">
+              </div>
+              <!-- navigation menu start -->
+              <nav class="nav-menu">
+                <div class="close-nav-menu">
+                 <i class="fa-solid fa-xmark"></i>
+                </div>
+                <ul class="menu">
+                 <li class="menu-item">
+                   <a href="../index.html">Accueil</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="../HTML/Apropos.html">A propos</a>
+                  </li>
+                  <li class="menu-item menu-item-has-children">
+                     <a href="#" data-toggle="sub-menu">Catégories</a>
+                     <ul class="sub-menu">
+                         <li class="menu-item"><a href="../HTML/Categorie-primaire.html">Primaire</a></li>
+                         <li class="menu-item"><a href="../HTML/CategorieCollege.html">Collège</a></li>
+                         <li class="menu-item"><a href="../HTML/CategorieLycee.html">Lycée</a></li>
+                     </ul>
+                  </li>
+                  
+                  <li class="menu-item">
+                     <a href="../HTML/Contact.html">Contact</a>
+                  </li>
+               </ul>
+              </nav>
+              <!-- navigation menu end -->
+           </div>
+        </div>
+     </header>
+     <!-- header end -->
 
     <section id="contact">
         <div class="contactGroup">
@@ -46,11 +78,11 @@
             <div class="mail">
                 <i class="fa-solid fa-envelope"></i>
                 <h2>formulaire de contact</h2>
-                <p>Vous pouvez utiliser ce formulaire <br> ci-dessous pour nous envoyer un <br> mail, nous vous recontacterons <br> dans les plus brefs délai.</p>
+                <p>Vous pouvez utiliser l'Email <br> ci-dessous pour nous envoyer un <br> mail, nous vous recontacterons <br> dans les plus brefs délai. <br><br>Email :DevSchool@gmail.com</p>
 
-                <div class="formContact">
+                <!-- <div class="formContact">
                     Contact
-                </div>
+                </div> -->
 
                 <div class="border2"></div>
             </div>
@@ -58,7 +90,7 @@
             <div class="equipe">
                 <i class="fa-solid fa-house-chimney"></i>
                 <h2>l'equipe dev-group</h2>
-                <p>Venez rencontrer notre fine <br> equipe de developpeur à notre <br> agence, nous serons ravie de <br> vous recevoir à l'adresse <br> suivante : <br> Rue des caraibe,Abidjan,Cote <br> D'ivoire</p>
+                <p>Venez rencontrer notre fine <br> équipe de développeur à notre <br> agence, nous serons ravie de <br> vous recevoir à l'adresse <br> suivante : <br> Rue des caraibe,Abidjan,Cote <br> D'ivoire</p>
             </div>
 
         </div>
@@ -66,6 +98,6 @@
     </section>
 
     
-    <!-- <script src="JS/script.js"></script> -->
+    <script src="../JS/Contact.js   "></script>
 </body>
 </html>
