@@ -719,8 +719,7 @@ h2
 } */ 
 
 /* WHY */
-
- /* .why
+.why
 {
     display: flex;
     justify-content: center;
@@ -747,7 +746,7 @@ h4
 {
     width: 45%;
     height: 50%;
-} */
+} 
 
 /* FOOTER */
 .footerLogo
