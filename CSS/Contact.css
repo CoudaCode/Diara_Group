@@ -199,7 +199,6 @@ body
     }  .header .close-nav-menu,
     .header .open-nav-menu{    display: flex;
     }
-=======
 *, *::after,*::before{
 	margin: 0;
 	padding: 0;
@@ -210,7 +209,6 @@ body
 	--colorPrimaire : #545AE8;
 	--border: #1B8AF1;
 	
->>>>>>> 72a7ade999b88b880d4adcdc201b0ffcba2232c4
 }
 
 body{
@@ -463,7 +461,6 @@ h2
     }
     
 }
-<<<<<<< HEAD
 @media screen and (width : 320px) {
     #contacts .infoContact  i{
         font-size: 3rem;
@@ -474,8 +471,7 @@ h2
     .infoContact h2{
         font-size: 1.3rem;
     }
-=======
-
+}
 
 
   /**************  Media Queries  **************************/
@@ -647,5 +643,4 @@ h2
 	.header .open-nav-menu{
 		display: flex;
 	}
->>>>>>> 72a7ade999b88b880d4adcdc201b0ffcba2232c4
-}
+}}
