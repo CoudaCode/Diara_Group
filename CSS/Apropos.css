@@ -123,7 +123,6 @@ p {
   font-size: 18px;
   text-align: center;
   display: block;
- 
 }
 .card {
   display: block;
@@ -152,7 +151,6 @@ h3 {
 .contener2 > img {
   height: 15vh;
   object-fit: cover;
-  ;
 }
 form > input[type="text"] {
   width: 30%;
@@ -174,58 +172,51 @@ form {
 
 /* FOOTER */
 
-.footerLogo
-{
-    margin-top:5%;
+.footerLogo {
+  margin-top: 5%;
 }
-.footerLogo img
-{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 120px;
-    height: 50px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    display: flex;
+.footerLogo img {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 120px;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
 }
-footer
-{
-    /* margin-top: 30px; */
-     padding-top: 30px;
-    padding-bottom: 30px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    flex-wrap: wrap;
-    background-color: #545AE8;
+footer {
+  /* margin-top: 30px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  background-color: #545ae8;
 }
-footer i
-{
-    color: black;
-    padding-right: 20px;
-    font-size: 2rem;
-    padding-bottom: 50px;
-    padding-left: 10px;
+footer i {
+  color: black;
+  padding-right: 20px;
+  font-size: 2rem;
+  padding-bottom: 50px;
+  padding-left: 10px;
 }
-footer h1
-{
-    font-size: 1.5rem;
-    font-weight: bold;
+footer h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-footer p
-{
-    padding-top: 5px;
-    font-size: 1.2rem;
+footer p {
+  padding-top: 5px;
+  font-size: 1.2rem;
 }
-.nous_suivre h1
-{
-    padding-bottom: 5px;
-    padding-left: 30px;
-} 
+.nous_suivre h1 {
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
@@ -741,25 +732,44 @@ a {
     height: 45px;
     border: transparent;
   }
-  footer{
+  footer {
     width: 100%;
     margin: 0 auto;
     display: inline-block;
     text-align: center;
-}
-.footerLogo {
-  margin-top: 8%;
-}
-footer i{
+  }
+  .footerLogo {
+    margin-top: 8%;
+  }
+  footer i {
     padding-bottom: 5%;
-}
-.nous_suivre{
+  }
+  .nous_suivre {
     padding-bottom: 0;
-}
-.contact, .categories{
+  }
+  .contact,
+  .categories {
     margin-top: 5%;
+  }
 }
+@media (max-width: 414px) {
+  form > h1 {
+    transform: translateY(50px);
+  }
+  form > input[type="text"] {
+    width: 50%;
+    height: 45px;
+    transform: translateY(40px);
+    border: transparent;
+  }
+  form > input[type="submit"] {
+    width: 20%;
+    height: 45px;
+    transform: translateY(40px);
+    border: transparent;
+  }
 }
+
 @media (max-width: 425px) {
   .home-section {
     width: 100%;
@@ -832,19 +842,24 @@ footer i{
     width: 80%;
     object-fit: cover;
   }
+  form > h1 {
+    transform: translateY(50px);
+  }
   form > input[type="text"] {
     width: 50%;
     height: 45px;
+    transform: translateY(50px);
     border: transparent;
   }
   form > input[type="submit"] {
     width: 20%;
     height: 45px;
+    transform: translateY(50px);
     border: transparent;
   }
   .footerLogo {
     margin-top: 15%;
-}
+  }
 }
 @media (max-width: 320px) {
   .home-section {
@@ -900,4 +915,3 @@ footer i{
 @media (max-width: 600px) {
 }
 /* footer */
-
