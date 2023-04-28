@@ -358,15 +358,14 @@ h2
     width: 20%;
     height:  100%;
     padding-bottom: 50px;
-    background-color: white;
     border: 1px solid black;
     border-radius: 15px;
 }
-.info-1{
-    background-color: #ABB1FC;
-}
-.info-2,.info-3{
+.info-1 ,.info-2, .info-3{
     background-color: #d9d9d9;
+}
+.info-1:hover,.info-2:hover, .info-3:hover{
+    background-color: #ABB1FC;
 }
 .info-1 i,.info-2 i,.info-3 i{
     font-size: 3rem;
@@ -550,6 +549,7 @@ footer p
     }
     .info-1,.info-2,.info-3{
         width: 200px;
+        height: 100%;
         padding-bottom: 2%;
     }
     .info-1 p,.info-2 p,.info-3 p{

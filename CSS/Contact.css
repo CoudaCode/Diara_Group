@@ -263,12 +263,13 @@ h2
 @media screen and (max-width : 500px) {
     #contacts i{
         font-size: 3rem;
+		justify-content: center;
     }
     #contacts .infoContact h2{
-        font-size: 1rem;
+        font-size: .2rem;
     }
     #contacts .infoContact p{
-        font-size: 1rem;
+        font-size: .1rem;
     }
     
 }
