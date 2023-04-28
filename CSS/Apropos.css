@@ -120,9 +120,10 @@ p {
   line-height: 1;
   margin: 0 auto 1rem;
   padding: 0;
+  font-size: 18px;
   text-align: center;
   display: block;
-  font-weight: 600;
+ 
 }
 .card {
   display: block;
@@ -175,7 +176,7 @@ form {
 
 .footerLogo
 {
-    margin-top: 10%;
+    margin-top:5%;
 }
 .footerLogo img
 {
@@ -740,6 +741,24 @@ a {
     height: 45px;
     border: transparent;
   }
+  footer{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+.footerLogo {
+  margin-top: 8%;
+}
+footer i{
+    padding-bottom: 5%;
+}
+.nous_suivre{
+    padding-bottom: 0;
+}
+.contact, .categories{
+    margin-top: 5%;
+}
 }
 @media (max-width: 425px) {
   .home-section {
@@ -823,6 +842,9 @@ a {
     height: 45px;
     border: transparent;
   }
+  .footerLogo {
+    margin-top: 15%;
+}
 }
 @media (max-width: 320px) {
   .home-section {
