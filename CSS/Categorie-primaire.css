@@ -757,7 +757,7 @@ footer i{
  @media (max-width: 321px){
 	.row-card-school{
 		height: auto;
-		width: 300px;
+		width: 250px;
 	}
 
 	.searchbar-input {
@@ -767,4 +767,10 @@ footer i{
 	  .home-section h1{
 		font-size: 1.8rem;
 	  }  
+    p{
+      font-size: 0.8rem;
+    }
+    .col-school h3{
+      font-size: 1rem;
+    }
 }
