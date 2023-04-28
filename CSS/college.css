@@ -146,7 +146,7 @@ a{
     color: white;
     font-weight: bolder;
     text-transform: uppercase;
-    width: 70%;
+    width: 60%;
     height: auto;
   }
 .class-sect .title{
@@ -603,7 +603,6 @@ footer p
 		display: flex;
 	}
 }
-
 
 
 

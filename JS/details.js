@@ -66,11 +66,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
    
    
    
-   const sourceId=window.location.search.split("?").join("");
-   console.log('sourceId: '+sourceId);
-   
+const sourceId=window.location.search.split("?").join("");
+console.log('sourceId: '+sourceId);
 
-   let dataLycee = [];
+
+let dataLycee = [];
 let dataColleges = [];
 let dataPrimaire = [];
 let data=[]
@@ -207,19 +207,6 @@ let cycleseconde=`
 
 `
 
-// let resTle=`
-// <div class="bac">
-//        <h3>BAC</h3>
-//       <div class="bacyear1">
-//          <p>20/21 :</p>
-//          <p>${base.bac.ann_scolaire1}</p>
-//       </div>
-//       <div class="bacyear2">
-//          <p>20/22 :</p>
-//          <p>${base.bac.ann_scolaire2}</p>
-//       </div>
-// </div>
-// `
 
 let restTlePres = `
          <div class="bepc">
