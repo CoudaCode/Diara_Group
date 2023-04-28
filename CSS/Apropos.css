@@ -139,8 +139,6 @@ p {
   box-shadow: 0 16px 24px -12px rgba(black, 0.15);
 }
 
-
-
 h3 {
   text-align: center;
   line-height: 1.5;
@@ -153,6 +151,7 @@ h3 {
 .contener2 > img {
   height: 15vh;
   object-fit: cover;
+  ;
 }
 form > input[type="text"] {
   width: 30%;
@@ -173,51 +172,59 @@ form {
 /* investissseur */
 
 /* FOOTER */
-.footerLogo {
-  margin-top: 50px;
+
+.footerLogo
+{
+    margin-top: 10%;
 }
-.footerLogo img {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 120px;
-  height: 50px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin: 0 auto;
-  display: flex;
+.footerLogo img
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
 }
-footer {
-  /* margin-top: 30px; */
-  padding-top: 30px;
-  padding-bottom: 30px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-  flex-wrap: wrap;
-  background-color: #545ae8;
+footer
+{
+    /* margin-top: 30px; */
+     padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    background-color: #545AE8;
 }
-footer i {
-  color: black;
-  padding-right: 20px;
-  font-size: 2rem;
-  padding-bottom: 50px;
-  padding-left: 10px;
+footer i
+{
+    color: black;
+    padding-right: 20px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    padding-left: 10px;
 }
-footer h1 {
-  font-size: 1.5rem;
-  font-weight: bold;
+footer h1
+{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-footer p {
-  padding-top: 5px;
-  font-size: 1.2rem;
+footer p
+{
+    padding-top: 5px;
+    font-size: 1.2rem;
 }
-.nous_suivre h1 {
-  padding-bottom: 5px;
-  padding-left: 30px;
-}
+.nous_suivre h1
+{
+    padding-bottom: 5px;
+    padding-left: 30px;
+} 
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
@@ -265,7 +272,7 @@ a {
 .home-section {
   width: 100%;
   display: block;
-  min-height: 80vh;
+  height: 80%;
   background-image: url("../IMAGES/etudiants-africains-850x478.jpeg");
   object-fit: cover;
   background-position: center top;
@@ -275,7 +282,6 @@ a {
   justify-content: center;
 }
 .home-section h1 {
-
   text-align: center;
   padding-top: 220px;
   font-size: 2.6rem;
@@ -313,7 +319,7 @@ body {
 .container {
   max-width: 1170px;
   margin: auto;
-} 
+}
 .xon {
   width: 100%;
   height: 100vh;
@@ -330,7 +336,7 @@ a {
 /*header*/
 .header {
   width: 100%;
-  
+
   padding: 0.1rem;
 }
 .header-main {
@@ -655,15 +661,11 @@ a {
   }
 }
 
-
-
-
 @media (max-width: 1440px) {
   .contener1 {
     width: 50%;
   }
 }
-
 
 @media (width: 1024px) {
   .home-section {
@@ -679,8 +681,8 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    top: 30%;
-    left: 35%;
+    top: 15%;
+    left: 20%;
     font-size: 2.5rem;
   }
   .box1 {
@@ -702,7 +704,7 @@ a {
     border: transparent;
   }
 }
-@media (width: 768px) {
+@media (max-width: 768px) {
   .home-section {
     width: 100%;
     display: block;
@@ -716,8 +718,8 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    top: 30%;
-    left: 35%;
+    top: 15%;
+    left: 15%;
     font-size: 2.5rem;
   }
   .box1 {
@@ -739,7 +741,7 @@ a {
     border: transparent;
   }
 }
-@media (width: 425px) {
+@media (max-width: 425px) {
   .home-section {
     width: 100%;
     display: block;
@@ -750,10 +752,10 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    top: 22%;
+    top: 12%;
     left: 25%;
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
   .contener1 {
     width: 95%;
@@ -780,12 +782,12 @@ a {
     border: transparent;
   }
 }
-@media (width: 375px) {
+@media (max-width: 375px) {
   .home-section {
     width: 100%;
     display: block;
 
-    min-height: 40vh;
+    height: 50vh;
     background-position: center top;
     background-size: cover;
   }
@@ -795,10 +797,10 @@ a {
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    top: 22%;
-    left: 25%;
+    top: 2%;
+    left: 15%;
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .contener {
     display: flex;
@@ -822,22 +824,22 @@ a {
     border: transparent;
   }
 }
-@media (width: 320px) {
+@media (max-width: 320px) {
   .home-section {
     width: 100%;
     display: block;
-    min-height: 40vh;
+    height: 20vh;
     background-position: center top;
     background-size: cover;
-}
+  }
 
   .home-section > h1 {
     text-align: center;
     color: #fff;
-    top: 22%;
-    left: 25%;
+    bottom: 25%;
+    left: 10%;
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
   .contener {
     display: flex;
@@ -873,3 +875,7 @@ a {
     padding: 5px;
   }
 }
+@media (max-width: 600px) {
+}
+/* footer */
+
